@@ -4,40 +4,12 @@ from rest_framework import status
 from django.http import JsonResponse
 from django.core.paginator import Paginator, InvalidPage
 
-from .models import Project, Post
-from .serializers import ProjectSerializer, PostSerializer
+from ..models import Post
+from ..serializers.post import PostSerializer
 
 
 @api_view(["GET"])
-def projects(request):
-    try:
-        projects_data = Project.objects.all().order_by("-timestamp")
-    except Project.DoesNotExist:
-        return JsonResponse(
-            {"message": "Projects not found"}, status=status.HTTP_404_NOT_FOUND
-        )
-
-    serializer = ProjectSerializer(projects_data, many=True)
-
-    return Response(serializer.data, status=status.HTTP_200_OK)
-
-
-@api_view(["GET"])
-def project(request, id):
-    try:
-        project_data = Project.objects.get(pk=id)
-    except Project.DoesNotExist:
-        return JsonResponse(
-            {"message": "Project not found"}, status=status.HTTP_404_NOT_FOUND
-        )
-
-    serializer = ProjectSerializer(project_data, many=False)
-
-    return Response(serializer.data, status=status.HTTP_200_OK)
-
-
-@api_view(["GET"])
-def posts(request, page_number):
+def posts(request, page_number=1):
     try:
         posts_data = Post.objects.all().order_by("-timestamp")
     except Post.DoesNotExist:

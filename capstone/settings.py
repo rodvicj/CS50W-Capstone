@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     "corsheaders",
     "markdownx",
     # authentication
-    #'rest_framework.authtoken',
+    # 'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
@@ -134,3 +134,5 @@ CORS_ALLOWED_ORIGINS = ["http://localhost:3000"]
 REST_FRAMEWORK = {
     "DATETIME_FORMAT": "%b %d, %Y, %H:%M:%S",
 }
+
+# APPEND_SLASH = False
