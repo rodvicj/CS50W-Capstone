@@ -18,6 +18,10 @@ migrate:
 shell:
 	poetry run python manage.py shell
 
+.PHONY: poetry-shell
+shell-shell:
+	poetry shell
+
 .PHONY: superuser
 superuser:
 	poetry run python manage.py createsuperuser
@@ -28,4 +32,9 @@ update-requirements:
 
 .PHONY: runserver
 runserver:
-	npm --prefix ./frontend/ run start & poetry run python manage.py runserver
+	poetry run python -m backend.manage runserver
+
+# .PHONY: runserver
+# runserver:
+# 	npm --prefix ./frontend/ run start & poetry run python manage.py runserver
+

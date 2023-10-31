@@ -55,7 +55,7 @@ MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
 ]
 
-ROOT_URLCONF = "capstone.urls"
+ROOT_URLCONF = "project.urls"
 
 
 TEMPLATES = [
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "capstone.wsgi.application"
+WSGI_APPLICATION = "project.wsgi.application"
 
 
 # Database

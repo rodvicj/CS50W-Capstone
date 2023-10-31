@@ -9,3 +9,6 @@ npm install -D @tailwindcss/typography
 npm install -D @tailwindcss/aspect-ratio
 npm i @tanstack/react-query
 npm i @tanstack/react-query-devtools -- (removed)
+
+
+TODO: decide for final project structure
