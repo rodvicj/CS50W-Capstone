@@ -8,15 +8,15 @@ poetry-update:
 
 .PHONY: makemigrations
 makemigrations:
-	poetry run python manage.py makemigrations
+	poetry run python -m backend.manage makemigrations
 
 .PHONY: migrate
 migrate:
-	poetry run python manage.py migrate
+	poetry run python -m backend.manage migrate
 
 .PHONY: shell
 shell:
-	poetry run python manage.py shell
+	poetry run python -m backend.manage shell
 
 .PHONY: poetry-shell
 shell-shell:
@@ -24,7 +24,7 @@ shell-shell:
 
 .PHONY: superuser
 superuser:
-	poetry run python manage.py createsuperuser
+	poetry run python -m backend.manage createsuperuser
 
 .PHONY: update-requirements
 update-requirements:
@@ -32,9 +32,4 @@ update-requirements:
 
 .PHONY: runserver
 runserver:
-	poetry run python -m backend.manage runserver
-
-# .PHONY: runserver
-# runserver:
-# 	npm --prefix ./frontend/ run start & poetry run python manage.py runserver
-
+	npm --prefix ./frontend/ run start & poetry run python -m backend.manage runserver
