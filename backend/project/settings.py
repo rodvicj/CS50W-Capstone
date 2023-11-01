@@ -36,11 +36,11 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "portfolio",
     "rest_framework",
     "corsheaders",
     "markdownx",
-    # authentication
+    "portfolio",
+    "account",
     # 'rest_framework.authtoken',
 ]
 
@@ -89,7 +89,7 @@ DATABASES = {
 
 
 # AUTH_USER_MODEL = ""
-AUTH_USER_MODEL = "portfolio.User"
+# AUTH_USER_MODEL = "portfolio.User"
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
@@ -127,12 +127,14 @@ STATIC_URL = "/static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:3000"]
-# CORS_ORIGIN_WHITELIST = ["http://localhost:3000"]
+CORS_ORIGIN_ALLOW_ALL = False
+CORS_ORIGIN_WHITELIST = (
+    "http://localhost:3000",  # Replace with the domain of your React app
+)
 
 # default datetime format when serialized timestamp
 REST_FRAMEWORK = {
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
+    "PAGE_SIZE": 10,
     "DATETIME_FORMAT": "%b %d, %Y, %H:%M:%S",
 }
-
-# APPEND_SLASH = False
