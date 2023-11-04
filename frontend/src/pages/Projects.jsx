@@ -29,7 +29,7 @@ const Projects = () => {
       </Section>
 
       <Section>
-        <ProjectGallery projects={data} />
+        <ProjectGallery projects={data?.results} />
         {isLoading ? "Loading..." : <></>}
       </Section>
 

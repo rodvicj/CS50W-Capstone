@@ -36,7 +36,7 @@ const PostsRecent = () => {
     >
 
       {isLoading ? "Loading..." : <></>}
-      <PostGallery posts={data?.posts?.slice(0, 3)} />
+      <PostGallery posts={data?.results?.slice(0, 3)} />
     </Section>
   );
 };

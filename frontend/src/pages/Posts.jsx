@@ -7,8 +7,8 @@ import PostGallery from "../components/PostGallery";
 import Pagination from "../components/Pagination";
 
 const Posts = () => {
-  // let { page } = useParams();
-  // page ||= 1;
+  let { page } = useParams();
+  page ||= 1;
 
   const getPosts = async () => {
     const response = await fetch(`http://localhost:8000/posts`);
@@ -40,10 +40,11 @@ const Posts = () => {
       </Section>
 
       <Section>
+        {console.log(data)}
         {data?.status !== undefined ? (
           data.message
         ) : (
-          <PostGallery posts={data?.posts} />
+          <PostGallery posts={data?.results} />
         )}
 
         {isLoading ? "Loading..." : <></>}

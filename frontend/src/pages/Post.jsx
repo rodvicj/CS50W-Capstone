@@ -33,6 +33,7 @@ const Post = () => {
     <>
       <PageTitle title={data?.title} />
       <Section>
+        {console.log(data)}
         {isLoading ? "Loading..." : <></>}
         <PostHeader content={data} />
 
