@@ -1,0 +1,724 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-11-04T06:09:05.750Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Post object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add technology",
+      "content_type": 7,
+      "codename": "add_technology"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change technology",
+      "content_type": 7,
+      "codename": "change_technology"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete technology",
+      "content_type": 7,
+      "codename": "delete_technology"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view technology",
+      "content_type": 7,
+      "codename": "view_technology"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add project",
+      "content_type": 8,
+      "codename": "add_project"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change project",
+      "content_type": 8,
+      "codename": "change_project"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete project",
+      "content_type": 8,
+      "codename": "delete_project"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view project",
+      "content_type": 8,
+      "codename": "view_project"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add post",
+      "content_type": 9,
+      "codename": "add_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change post",
+      "content_type": 9,
+      "codename": "change_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete post",
+      "content_type": 9,
+      "codename": "delete_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view post",
+      "content_type": 9,
+      "codename": "view_post"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$j0jbP4yW5KC9Zqmd8z1Yyj$ar1/Qp1U2NCiHnZqxy5ZMOZBSxDW1XiN/xf5r6OB+SM=",
+      "last_login": "2023-11-04T06:06:21.331Z",
+      "is_superuser": true,
+      "username": "rodvicj",
+      "first_name": "",
+      "last_name": "",
+      "email": "rodvicj@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-11-04T06:06:15.615Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "portfolio",
+      "model": "technology"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "portfolio",
+      "model": "project"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "portfolio",
+      "model": "post"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "41cnafq5uypv4201uzdsxp54kmz5uara",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hAKBWZcuu8ZyHQYpWpoUtqV8e7apAvd_vfef6lE21rS1mRJU1Zn1anT7zYSP6TuIN-p3mbNc12XadS7og_a9DBneV4O9--gUCvfmoNzwfeBriAG0dsINhCyB2NCRJNFPHXWIEcXIzrInimjQG88RhD1_gCysTax:1qz9nZ:92o-aXlhZQ2IAbX_K_OzOMIV0cjHliWz0ime8_RwWqI",
+      "expire_date": "2023-11-18T06:06:21.345Z"
+    }
+  },
+  {
+    "model": "portfolio.post",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "title": "Post 9",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.1",
+      "timestamp": "2023-11-04T06:09:05.749Z",
+      "img_src": "/assets/images/image-post2.jpeg",
+      "img_alt": "Image post",
+      "content": "This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\\r\\n\\r\\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\\r\\n\\r\\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\\r\\n\\r\\n## Headings\\r\\n\\r\\n# H1 For example\\r\\n\\r\\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\\r\\n\\r\\n## H2 For example\\r\\n\\r\\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\\r\\n\\r\\n### H3 For example\\r\\n\\r\\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\\r\\n\\r\\n#### H4 For example\\r\\n\\r\\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\\r\\n\\r\\n##### H5 For example\\r\\n\\r\\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\\r\\n\\r\\n###### H6 For example\\r\\n\\r\\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\\r\\n\\r\\n## Emphasis\\r\\n\\r\\nEmphasis, aka italics, with _asterisks_ or _underscores_.\\r\\n\\r\\nStrong emphasis, aka bold, with **asterisks** or **underscores**.\\r\\n\\r\\nStrikethrough uses two tildes. ~~Scratch this.~~\\r\\n\\r\\n## Blockquotes\\r\\n\\r\\n> Blockquotes are very handy in email to emulate reply text.\\r\\n> This line is part of the same quote.\\r\\n\\r\\nQuote break.\\r\\n\\r\\n> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.\\r\\n\\r\\n## Horizontal separator\\r\\n\\r\\nThis is a horizontal separator:\\r\\n\\r\\n---\\r\\n\\r\\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\\r\\n\\r\\n---\\r\\n\\r\\n## List types\\r\\n\\r\\n### Ordered list\\r\\n\\r\\n1. List item 1\\r\\n2. List item 2\\r\\n   1. Nested list item A\\r\\n   2. Nested list item B\\r\\n3. List item 3\\r\\n\\r\\n### Unordered list\\r\\n\\r\\n- List item\\r\\n- List item\\r\\n  - Nested list item\\r\\n  - Nested list item\\r\\n    - Double nested list item\\r\\n    - Double nested list item\\r\\n- List item\\r\\n\\r\\n### Mixed list\\r\\n\\r\\n1. First ordered list item\\r\\n2. Another item\\r\\n   - Unordered sub-list.\\r\\n3. Actual numbers don't matter, just that it's a number\\r\\n   1. Ordered sub-list\\r\\n4. And another item.\\r\\n\\r\\n## Links\\r\\n\\r\\n[Inline-style link](https://www.google.com)\\r\\n\\r\\n[Inline-style link with title](https://www.google.com \\\"Google's Homepage\\\")\\r\\n\\r\\n[Reference-style link][arbitrary case-insensitive reference text]\\r\\n\\r\\n[You can use numbers for reference-style link definitions][1]\\r\\n\\r\\nOr leave it empty and use the [link text itself].\\r\\n\\r\\nSome text to show that the reference links can follow later.\\r\\n\\r\\n[arbitrary case-insensitive reference text]: https://www.mozilla.org\\r\\n[1]: http://slashdot.org\\r\\n[link text itself]: http://www.reddit.com\\r\\n\\r\\n## Images\\r\\n\\r\\nImages included in _\\\\_posts_ folder are lazy loaded.\\r\\n\\r\\nInline-style:\\r\\n![alt text](/src/images/random.jpeg 'Logo Title Text 1')\\r\\n\\r\\n## Table\\r\\n\\r\\n| Tables        |      Are      | Cool |\\r\\n| ------------- | :-----------: | ---: |\\r\\n| col 3 is      | right-aligned | 1600 |\\r\\n| col 2 is      |   centered    |   12 |\\r\\n| zebra stripes |   are neat    |    1 |\\r\\n\\r\\n| Markdown | Less      | Pretty     |\\r\\n| -------- | --------- | ---------- |\\r\\n| _Still_  | `renders` | **nicely** |\\r\\n| 1        | 2         | 3          |\\r\\n\\r\\n## Syntax highlight\\r\\n\\r\\n```javascript\\r\\nvar s = 'JavaScript syntax highlighting'; var s = 'JavaScript syntax highlighting';\\r\\nalert(s);\\r\\n```\\r\\n\\r\\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\\r\\n\\r\\n```python\\r\\ns = \\\"Python syntax highlighting\\\"\\r\\nprint s\\r\\n```"
+    }
+  },
+  {
+    "model": "portfolio.post",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "title": "Post 2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.",
+      "timestamp": "2023-01-22T04:25:13.390Z",
+      "img_src": "/assets/images/image-post2.jpeg",
+      "img_alt": "Image post",
+      "content": "This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## Headings\r\n\r\n# H1 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## H2 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n### H3 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n#### H4 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n##### H5 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n###### H6 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## Emphasis\r\n\r\nEmphasis, aka italics, with _asterisks_ or _underscores_.\r\n\r\nStrong emphasis, aka bold, with **asterisks** or **underscores**.\r\n\r\nStrikethrough uses two tildes. ~~Scratch this.~~\r\n\r\n## Blockquotes\r\n\r\n> Blockquotes are very handy in email to emulate reply text.\r\n> This line is part of the same quote.\r\n\r\nQuote break.\r\n\r\n> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.\r\n\r\n## Horizontal separator\r\n\r\nThis is a horizontal separator:\r\n\r\n---\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n---\r\n\r\n## List types\r\n\r\n### Ordered list\r\n\r\n1. List item 1\r\n2. List item 2\r\n   1. Nested list item A\r\n   2. Nested list item B\r\n3. List item 3\r\n\r\n### Unordered list\r\n\r\n- List item\r\n- List item\r\n  - Nested list item\r\n  - Nested list item\r\n    - Double nested list item\r\n    - Double nested list item\r\n- List item\r\n\r\n### Mixed list\r\n\r\n1. First ordered list item\r\n2. Another item\r\n   - Unordered sub-list.\r\n3. Actual numbers don't matter, just that it's a number\r\n   1. Ordered sub-list\r\n4. And another item.\r\n\r\n## Links\r\n\r\n[Inline-style link](https://www.google.com)\r\n\r\n[Inline-style link with title](https://www.google.com \"Google's Homepage\")\r\n\r\n[Reference-style link][arbitrary case-insensitive reference text]\r\n\r\n[You can use numbers for reference-style link definitions][1]\r\n\r\nOr leave it empty and use the [link text itself].\r\n\r\nSome text to show that the reference links can follow later.\r\n\r\n[arbitrary case-insensitive reference text]: https://www.mozilla.org\r\n[1]: http://slashdot.org\r\n[link text itself]: http://www.reddit.com\r\n\r\n## Images\r\n\r\nImages included in _\\_posts_ folder are lazy loaded.\r\n\r\nInline-style:\r\n![alt text](/src/images/random.jpeg 'Logo Title Text 1')\r\n\r\n## Table\r\n\r\n| Tables        |      Are      | Cool |\r\n| ------------- | :-----------: | ---: |\r\n| col 3 is      | right-aligned | 1600 |\r\n| col 2 is      |   centered    |   12 |\r\n| zebra stripes |   are neat    |    1 |\r\n\r\n| Markdown | Less      | Pretty     |\r\n| -------- | --------- | ---------- |\r\n| _Still_  | `renders` | **nicely** |\r\n| 1        | 2         | 3          |\r\n\r\n## Syntax highlight\r\n\r\n```javascript\r\nvar s = 'JavaScript syntax highlighting'; var s = 'JavaScript syntax highlighting';\r\nalert(s);\r\n```\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n```python\r\ns = \"Python syntax highlighting\"\r\nprint s\r\n```"
+    }
+  },
+  {
+    "model": "portfolio.post",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "title": "Post 3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.",
+      "timestamp": "2023-01-22T04:25:13.390Z",
+      "img_src": "/assets/images/image-post3.jpeg",
+      "img_alt": "Image post",
+      "content": "This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## Headings\r\n\r\n# H1 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## H2 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n### H3 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n#### H4 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n##### H5 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n###### H6 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## Emphasis\r\n\r\nEmphasis, aka italics, with _asterisks_ or _underscores_.\r\n\r\nStrong emphasis, aka bold, with **asterisks** or **underscores**.\r\n\r\nStrikethrough uses two tildes. ~~Scratch this.~~\r\n\r\n## Blockquotes\r\n\r\n> Blockquotes are very handy in email to emulate reply text.\r\n> This line is part of the same quote.\r\n\r\nQuote break.\r\n\r\n> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.\r\n\r\n## Horizontal separator\r\n\r\nThis is a horizontal separator:\r\n\r\n---\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n---\r\n\r\n## List types\r\n\r\n### Ordered list\r\n\r\n1. List item 1\r\n2. List item 2\r\n   1. Nested list item A\r\n   2. Nested list item B\r\n3. List item 3\r\n\r\n### Unordered list\r\n\r\n- List item\r\n- List item\r\n  - Nested list item\r\n  - Nested list item\r\n    - Double nested list item\r\n    - Double nested list item\r\n- List item\r\n\r\n### Mixed list\r\n\r\n1. First ordered list item\r\n2. Another item\r\n   - Unordered sub-list.\r\n3. Actual numbers don't matter, just that it's a number\r\n   1. Ordered sub-list\r\n4. And another item.\r\n\r\n## Links\r\n\r\n[Inline-style link](https://www.google.com)\r\n\r\n[Inline-style link with title](https://www.google.com \"Google's Homepage\")\r\n\r\n[Reference-style link][arbitrary case-insensitive reference text]\r\n\r\n[You can use numbers for reference-style link definitions][1]\r\n\r\nOr leave it empty and use the [link text itself].\r\n\r\nSome text to show that the reference links can follow later.\r\n\r\n[arbitrary case-insensitive reference text]: https://www.mozilla.org\r\n[1]: http://slashdot.org\r\n[link text itself]: http://www.reddit.com\r\n\r\n## Images\r\n\r\nImages included in _\\_posts_ folder are lazy loaded.\r\n\r\nInline-style:\r\n![alt text](/src/images/random.jpeg 'Logo Title Text 1')\r\n\r\n## Table\r\n\r\n| Tables        |      Are      | Cool |\r\n| ------------- | :-----------: | ---: |\r\n| col 3 is      | right-aligned | 1600 |\r\n| col 2 is      |   centered    |   12 |\r\n| zebra stripes |   are neat    |    1 |\r\n\r\n| Markdown | Less      | Pretty     |\r\n| -------- | --------- | ---------- |\r\n| _Still_  | `renders` | **nicely** |\r\n| 1        | 2         | 3          |\r\n\r\n## Syntax highlight\r\n\r\n```javascript\r\nvar s = 'JavaScript syntax highlighting'; var s = 'JavaScript syntax highlighting';\r\nalert(s);\r\n```\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n```python\r\ns = \"Python syntax highlighting\"\r\nprint s\r\n```"
+    }
+  },
+  {
+    "model": "portfolio.post",
+    "pk": 4,
+    "fields": {
+      "user": 1,
+      "title": "Post 4",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.",
+      "timestamp": "2023-01-23T04:25:13.390Z",
+      "img_src": "/assets/images/image-post4.jpeg",
+      "img_alt": "Image post",
+      "content": "This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## Headings\r\n\r\n# H1 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## H2 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n### H3 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n#### H4 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n##### H5 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n###### H6 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## Emphasis\r\n\r\nEmphasis, aka italics, with _asterisks_ or _underscores_.\r\n\r\nStrong emphasis, aka bold, with **asterisks** or **underscores**.\r\n\r\nStrikethrough uses two tildes. ~~Scratch this.~~\r\n\r\n## Blockquotes\r\n\r\n> Blockquotes are very handy in email to emulate reply text.\r\n> This line is part of the same quote.\r\n\r\nQuote break.\r\n\r\n> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.\r\n\r\n## Horizontal separator\r\n\r\nThis is a horizontal separator:\r\n\r\n---\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n---\r\n\r\n## List types\r\n\r\n### Ordered list\r\n\r\n1. List item 1\r\n2. List item 2\r\n   1. Nested list item A\r\n   2. Nested list item B\r\n3. List item 3\r\n\r\n### Unordered list\r\n\r\n- List item\r\n- List item\r\n  - Nested list item\r\n  - Nested list item\r\n    - Double nested list item\r\n    - Double nested list item\r\n- List item\r\n\r\n### Mixed list\r\n\r\n1. First ordered list item\r\n2. Another item\r\n   - Unordered sub-list.\r\n3. Actual numbers don't matter, just that it's a number\r\n   1. Ordered sub-list\r\n4. And another item.\r\n\r\n## Links\r\n\r\n[Inline-style link](https://www.google.com)\r\n\r\n[Inline-style link with title](https://www.google.com \"Google's Homepage\")\r\n\r\n[Reference-style link][arbitrary case-insensitive reference text]\r\n\r\n[You can use numbers for reference-style link definitions][1]\r\n\r\nOr leave it empty and use the [link text itself].\r\n\r\nSome text to show that the reference links can follow later.\r\n\r\n[arbitrary case-insensitive reference text]: https://www.mozilla.org\r\n[1]: http://slashdot.org\r\n[link text itself]: http://www.reddit.com\r\n\r\n## Images\r\n\r\nImages included in _\\_posts_ folder are lazy loaded.\r\n\r\nInline-style:\r\n![alt text](/src/images/random.jpeg 'Logo Title Text 1')\r\n\r\n## Table\r\n\r\n| Tables        |      Are      | Cool |\r\n| ------------- | :-----------: | ---: |\r\n| col 3 is      | right-aligned | 1600 |\r\n| col 2 is      |   centered    |   12 |\r\n| zebra stripes |   are neat    |    1 |\r\n\r\n| Markdown | Less      | Pretty     |\r\n| -------- | --------- | ---------- |\r\n| _Still_  | `renders` | **nicely** |\r\n| 1        | 2         | 3          |\r\n\r\n## Syntax highlight\r\n\r\n```javascript\r\nvar s = 'JavaScript syntax highlighting'; var s = 'JavaScript syntax highlighting';\r\nalert(s);\r\n```\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n```python\r\ns = \"Python syntax highlighting\"\r\nprint s\r\n```"
+    }
+  },
+  {
+    "model": "portfolio.post",
+    "pk": 5,
+    "fields": {
+      "user": 1,
+      "title": "Post 5",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.",
+      "timestamp": "2023-01-25T04:25:13.390Z",
+      "img_src": "/assets/images/image-post5.jpeg",
+      "img_alt": "Image post",
+      "content": "This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## Headings\r\n\r\n# H1 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## H2 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n### H3 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n#### H4 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n##### H5 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n###### H6 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## Emphasis\r\n\r\nEmphasis, aka italics, with _asterisks_ or _underscores_.\r\n\r\nStrong emphasis, aka bold, with **asterisks** or **underscores**.\r\n\r\nStrikethrough uses two tildes. ~~Scratch this.~~\r\n\r\n## Blockquotes\r\n\r\n> Blockquotes are very handy in email to emulate reply text.\r\n> This line is part of the same quote.\r\n\r\nQuote break.\r\n\r\n> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.\r\n\r\n## Horizontal separator\r\n\r\nThis is a horizontal separator:\r\n\r\n---\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n---\r\n\r\n## List types\r\n\r\n### Ordered list\r\n\r\n1. List item 1\r\n2. List item 2\r\n   1. Nested list item A\r\n   2. Nested list item B\r\n3. List item 3\r\n\r\n### Unordered list\r\n\r\n- List item\r\n- List item\r\n  - Nested list item\r\n  - Nested list item\r\n    - Double nested list item\r\n    - Double nested list item\r\n- List item\r\n\r\n### Mixed list\r\n\r\n1. First ordered list item\r\n2. Another item\r\n   - Unordered sub-list.\r\n3. Actual numbers don't matter, just that it's a number\r\n   1. Ordered sub-list\r\n4. And another item.\r\n\r\n## Links\r\n\r\n[Inline-style link](https://www.google.com)\r\n\r\n[Inline-style link with title](https://www.google.com \"Google's Homepage\")\r\n\r\n[Reference-style link][arbitrary case-insensitive reference text]\r\n\r\n[You can use numbers for reference-style link definitions][1]\r\n\r\nOr leave it empty and use the [link text itself].\r\n\r\nSome text to show that the reference links can follow later.\r\n\r\n[arbitrary case-insensitive reference text]: https://www.mozilla.org\r\n[1]: http://slashdot.org\r\n[link text itself]: http://www.reddit.com\r\n\r\n## Images\r\n\r\nImages included in _\\_posts_ folder are lazy loaded.\r\n\r\nInline-style:\r\n![alt text](/src/images/random.jpeg 'Logo Title Text 1')\r\n\r\n## Table\r\n\r\n| Tables        |      Are      | Cool |\r\n| ------------- | :-----------: | ---: |\r\n| col 3 is      | right-aligned | 1600 |\r\n| col 2 is      |   centered    |   12 |\r\n| zebra stripes |   are neat    |    1 |\r\n\r\n| Markdown | Less      | Pretty     |\r\n| -------- | --------- | ---------- |\r\n| _Still_  | `renders` | **nicely** |\r\n| 1        | 2         | 3          |\r\n\r\n## Syntax highlight\r\n\r\n```javascript\r\nvar s = 'JavaScript syntax highlighting'; var s = 'JavaScript syntax highlighting';\r\nalert(s);\r\n```\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n```python\r\ns = \"Python syntax highlighting\"\r\nprint s\r\n```"
+    }
+  },
+  {
+    "model": "portfolio.post",
+    "pk": 6,
+    "fields": {
+      "user": 1,
+      "title": "Post 6",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.",
+      "timestamp": "2023-01-22T04:25:13.390Z",
+      "img_src": "/assets/images/image-post6.jpeg",
+      "img_alt": "Image post",
+      "content": "This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## Headings\r\n\r\n# H1 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## H2 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n### H3 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n#### H4 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n##### H5 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n###### H6 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## Emphasis\r\n\r\nEmphasis, aka italics, with _asterisks_ or _underscores_.\r\n\r\nStrong emphasis, aka bold, with **asterisks** or **underscores**.\r\n\r\nStrikethrough uses two tildes. ~~Scratch this.~~\r\n\r\n## Blockquotes\r\n\r\n> Blockquotes are very handy in email to emulate reply text.\r\n> This line is part of the same quote.\r\n\r\nQuote break.\r\n\r\n> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.\r\n\r\n## Horizontal separator\r\n\r\nThis is a horizontal separator:\r\n\r\n---\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n---\r\n\r\n## List types\r\n\r\n### Ordered list\r\n\r\n1. List item 1\r\n2. List item 2\r\n   1. Nested list item A\r\n   2. Nested list item B\r\n3. List item 3\r\n\r\n### Unordered list\r\n\r\n- List item\r\n- List item\r\n  - Nested list item\r\n  - Nested list item\r\n    - Double nested list item\r\n    - Double nested list item\r\n- List item\r\n\r\n### Mixed list\r\n\r\n1. First ordered list item\r\n2. Another item\r\n   - Unordered sub-list.\r\n3. Actual numbers don't matter, just that it's a number\r\n   1. Ordered sub-list\r\n4. And another item.\r\n\r\n## Links\r\n\r\n[Inline-style link](https://www.google.com)\r\n\r\n[Inline-style link with title](https://www.google.com \"Google's Homepage\")\r\n\r\n[Reference-style link][arbitrary case-insensitive reference text]\r\n\r\n[You can use numbers for reference-style link definitions][1]\r\n\r\nOr leave it empty and use the [link text itself].\r\n\r\nSome text to show that the reference links can follow later.\r\n\r\n[arbitrary case-insensitive reference text]: https://www.mozilla.org\r\n[1]: http://slashdot.org\r\n[link text itself]: http://www.reddit.com\r\n\r\n## Images\r\n\r\nImages included in _\\_posts_ folder are lazy loaded.\r\n\r\nInline-style:\r\n![alt text](/src/images/random.jpeg 'Logo Title Text 1')\r\n\r\n## Table\r\n\r\n| Tables        |      Are      | Cool |\r\n| ------------- | :-----------: | ---: |\r\n| col 3 is      | right-aligned | 1600 |\r\n| col 2 is      |   centered    |   12 |\r\n| zebra stripes |   are neat    |    1 |\r\n\r\n| Markdown | Less      | Pretty     |\r\n| -------- | --------- | ---------- |\r\n| _Still_  | `renders` | **nicely** |\r\n| 1        | 2         | 3          |\r\n\r\n## Syntax highlight\r\n\r\n```javascript\r\nvar s = 'JavaScript syntax highlighting'; var s = 'JavaScript syntax highlighting';\r\nalert(s);\r\n```\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n```python\r\ns = \"Python syntax highlighting\"\r\nprint s\r\n```"
+    }
+  },
+  {
+    "model": "portfolio.post",
+    "pk": 7,
+    "fields": {
+      "user": 1,
+      "title": "Post 7",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.",
+      "timestamp": "2023-01-22T04:25:13.390Z",
+      "img_src": "/assets/images/image-post.jpeg",
+      "img_alt": "Image post",
+      "content": "This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## Headings\r\n\r\n# H1 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## H2 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n### H3 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n#### H4 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n##### H5 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n###### H6 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## Emphasis\r\n\r\nEmphasis, aka italics, with _asterisks_ or _underscores_.\r\n\r\nStrong emphasis, aka bold, with **asterisks** or **underscores**.\r\n\r\nStrikethrough uses two tildes. ~~Scratch this.~~\r\n\r\n## Blockquotes\r\n\r\n> Blockquotes are very handy in email to emulate reply text.\r\n> This line is part of the same quote.\r\n\r\nQuote break.\r\n\r\n> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.\r\n\r\n## Horizontal separator\r\n\r\nThis is a horizontal separator:\r\n\r\n---\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n---\r\n\r\n## List types\r\n\r\n### Ordered list\r\n\r\n1. List item 1\r\n2. List item 2\r\n   1. Nested list item A\r\n   2. Nested list item B\r\n3. List item 3\r\n\r\n### Unordered list\r\n\r\n- List item\r\n- List item\r\n  - Nested list item\r\n  - Nested list item\r\n    - Double nested list item\r\n    - Double nested list item\r\n- List item\r\n\r\n### Mixed list\r\n\r\n1. First ordered list item\r\n2. Another item\r\n   - Unordered sub-list.\r\n3. Actual numbers don't matter, just that it's a number\r\n   1. Ordered sub-list\r\n4. And another item.\r\n\r\n## Links\r\n\r\n[Inline-style link](https://www.google.com)\r\n\r\n[Inline-style link with title](https://www.google.com \"Google's Homepage\")\r\n\r\n[Reference-style link][arbitrary case-insensitive reference text]\r\n\r\n[You can use numbers for reference-style link definitions][1]\r\n\r\nOr leave it empty and use the [link text itself].\r\n\r\nSome text to show that the reference links can follow later.\r\n\r\n[arbitrary case-insensitive reference text]: https://www.mozilla.org\r\n[1]: http://slashdot.org\r\n[link text itself]: http://www.reddit.com\r\n\r\n## Images\r\n\r\nImages included in _\\_posts_ folder are lazy loaded.\r\n\r\nInline-style:\r\n![alt text](/src/images/random.jpeg 'Logo Title Text 1')\r\n\r\n## Table\r\n\r\n| Tables        |      Are      | Cool |\r\n| ------------- | :-----------: | ---: |\r\n| col 3 is      | right-aligned | 1600 |\r\n| col 2 is      |   centered    |   12 |\r\n| zebra stripes |   are neat    |    1 |\r\n\r\n| Markdown | Less      | Pretty     |\r\n| -------- | --------- | ---------- |\r\n| _Still_  | `renders` | **nicely** |\r\n| 1        | 2         | 3          |\r\n\r\n## Syntax highlight\r\n\r\n```javascript\r\nvar s = 'JavaScript syntax highlighting'; var s = 'JavaScript syntax highlighting';\r\nalert(s);\r\n```\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n```python\r\ns = \"Python syntax highlighting\"\r\nprint s\r\n```"
+    }
+  },
+  {
+    "model": "portfolio.post",
+    "pk": 8,
+    "fields": {
+      "user": 1,
+      "title": "Post 8",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.",
+      "timestamp": "2023-01-23T04:25:13.390Z",
+      "img_src": "/assets/images/image-post7.jpeg",
+      "img_alt": "Image post",
+      "content": "This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## Headings\r\n\r\n# H1 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## H2 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n### H3 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n#### H4 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n##### H5 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n###### H6 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## Emphasis\r\n\r\nEmphasis, aka italics, with _asterisks_ or _underscores_.\r\n\r\nStrong emphasis, aka bold, with **asterisks** or **underscores**.\r\n\r\nStrikethrough uses two tildes. ~~Scratch this.~~\r\n\r\n## Blockquotes\r\n\r\n> Blockquotes are very handy in email to emulate reply text.\r\n> This line is part of the same quote.\r\n\r\nQuote break.\r\n\r\n> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.\r\n\r\n## Horizontal separator\r\n\r\nThis is a horizontal separator:\r\n\r\n---\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n---\r\n\r\n## List types\r\n\r\n### Ordered list\r\n\r\n1. List item 1\r\n2. List item 2\r\n   1. Nested list item A\r\n   2. Nested list item B\r\n3. List item 3\r\n\r\n### Unordered list\r\n\r\n- List item\r\n- List item\r\n  - Nested list item\r\n  - Nested list item\r\n    - Double nested list item\r\n    - Double nested list item\r\n- List item\r\n\r\n### Mixed list\r\n\r\n1. First ordered list item\r\n2. Another item\r\n   - Unordered sub-list.\r\n3. Actual numbers don't matter, just that it's a number\r\n   1. Ordered sub-list\r\n4. And another item.\r\n\r\n## Links\r\n\r\n[Inline-style link](https://www.google.com)\r\n\r\n[Inline-style link with title](https://www.google.com \"Google's Homepage\")\r\n\r\n[Reference-style link][arbitrary case-insensitive reference text]\r\n\r\n[You can use numbers for reference-style link definitions][1]\r\n\r\nOr leave it empty and use the [link text itself].\r\n\r\nSome text to show that the reference links can follow later.\r\n\r\n[arbitrary case-insensitive reference text]: https://www.mozilla.org\r\n[1]: http://slashdot.org\r\n[link text itself]: http://www.reddit.com\r\n\r\n## Images\r\n\r\nImages included in _\\_posts_ folder are lazy loaded.\r\n\r\nInline-style:\r\n![alt text](/src/images/random.jpeg 'Logo Title Text 1')\r\n\r\n## Table\r\n\r\n| Tables        |      Are      | Cool |\r\n| ------------- | :-----------: | ---: |\r\n| col 3 is      | right-aligned | 1600 |\r\n| col 2 is      |   centered    |   12 |\r\n| zebra stripes |   are neat    |    1 |\r\n\r\n| Markdown | Less      | Pretty     |\r\n| -------- | --------- | ---------- |\r\n| _Still_  | `renders` | **nicely** |\r\n| 1        | 2         | 3          |\r\n\r\n## Syntax highlight\r\n\r\n```javascript\r\nvar s = 'JavaScript syntax highlighting'; var s = 'JavaScript syntax highlighting';\r\nalert(s);\r\n```\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n```python\r\ns = \"Python syntax highlighting\"\r\nprint s\r\n```"
+    }
+  },
+  {
+    "model": "portfolio.post",
+    "pk": 9,
+    "fields": {
+      "user": 1,
+      "title": "Post 9",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.",
+      "timestamp": "2023-01-25T04:25:13.390Z",
+      "img_src": "/assets/images/image-post2.jpeg",
+      "img_alt": "Image post",
+      "content": "This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## Headings\r\n\r\n# H1 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## H2 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n### H3 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n#### H4 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n##### H5 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n###### H6 For example\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n## Emphasis\r\n\r\nEmphasis, aka italics, with _asterisks_ or _underscores_.\r\n\r\nStrong emphasis, aka bold, with **asterisks** or **underscores**.\r\n\r\nStrikethrough uses two tildes. ~~Scratch this.~~\r\n\r\n## Blockquotes\r\n\r\n> Blockquotes are very handy in email to emulate reply text.\r\n> This line is part of the same quote.\r\n\r\nQuote break.\r\n\r\n> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.\r\n\r\n## Horizontal separator\r\n\r\nThis is a horizontal separator:\r\n\r\n---\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n---\r\n\r\n## List types\r\n\r\n### Ordered list\r\n\r\n1. List item 1\r\n2. List item 2\r\n   1. Nested list item A\r\n   2. Nested list item B\r\n3. List item 3\r\n\r\n### Unordered list\r\n\r\n- List item\r\n- List item\r\n  - Nested list item\r\n  - Nested list item\r\n    - Double nested list item\r\n    - Double nested list item\r\n- List item\r\n\r\n### Mixed list\r\n\r\n1. First ordered list item\r\n2. Another item\r\n   - Unordered sub-list.\r\n3. Actual numbers don't matter, just that it's a number\r\n   1. Ordered sub-list\r\n4. And another item.\r\n\r\n## Links\r\n\r\n[Inline-style link](https://www.google.com)\r\n\r\n[Inline-style link with title](https://www.google.com \"Google's Homepage\")\r\n\r\n[Reference-style link][arbitrary case-insensitive reference text]\r\n\r\n[You can use numbers for reference-style link definitions][1]\r\n\r\nOr leave it empty and use the [link text itself].\r\n\r\nSome text to show that the reference links can follow later.\r\n\r\n[arbitrary case-insensitive reference text]: https://www.mozilla.org\r\n[1]: http://slashdot.org\r\n[link text itself]: http://www.reddit.com\r\n\r\n## Images\r\n\r\nImages included in _\\_posts_ folder are lazy loaded.\r\n\r\nInline-style:\r\n![alt text](/src/images/random.jpeg 'Logo Title Text 1')\r\n\r\n## Table\r\n\r\n| Tables        |      Are      | Cool |\r\n| ------------- | :-----------: | ---: |\r\n| col 3 is      | right-aligned | 1600 |\r\n| col 2 is      |   centered    |   12 |\r\n| zebra stripes |   are neat    |    1 |\r\n\r\n| Markdown | Less      | Pretty     |\r\n| -------- | --------- | ---------- |\r\n| _Still_  | `renders` | **nicely** |\r\n| 1        | 2         | 3          |\r\n\r\n## Syntax highlight\r\n\r\n```javascript\r\nvar s = 'JavaScript syntax highlighting'; var s = 'JavaScript syntax highlighting';\r\nalert(s);\r\n```\r\n\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.\r\n\r\n```python\r\ns = \"Python syntax highlighting\"\r\nprint s\r\n```"
+    }
+  },
+  {
+    "model": "portfolio.technology",
+    "pk": 1,
+    "fields": {
+      "name": "JavaScript",
+      "color": "Yellow"
+    }
+  },
+  {
+    "model": "portfolio.technology",
+    "pk": 3,
+    "fields": {
+      "name": "Tailwind.css",
+      "color": "Emerald"
+    }
+  },
+  {
+    "model": "portfolio.technology",
+    "pk": 4,
+    "fields": {
+      "name": "Astro.js",
+      "color": "Indigo"
+    }
+  },
+  {
+    "model": "portfolio.technology",
+    "pk": 5,
+    "fields": {
+      "name": "Bootstrap",
+      "color": "Indigo"
+    }
+  },
+  {
+    "model": "portfolio.technology",
+    "pk": 6,
+    "fields": {
+      "name": "Css",
+      "color": "Blue"
+    }
+  },
+  {
+    "model": "portfolio.technology",
+    "pk": 7,
+    "fields": {
+      "name": "Html",
+      "color": "Orange"
+    }
+  },
+  {
+    "model": "portfolio.technology",
+    "pk": 8,
+    "fields": {
+      "name": "Python",
+      "color": "Sky"
+    }
+  },
+  {
+    "model": "portfolio.technology",
+    "pk": 9,
+    "fields": {
+      "name": "Django",
+      "color": "Emerald"
+    }
+  },
+  {
+    "model": "portfolio.technology",
+    "pk": 10,
+    "fields": {
+      "name": "React.js",
+      "color": "Cyan"
+    }
+  },
+  {
+    "model": "portfolio.project",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "name": "Project 0",
+      "description": "Design a front-end for Google Search, Google Image Search, and Google Advanced Search.",
+      "timestamp": "2023-02-03T14:14:33.020Z",
+      "img_src": "/assets/images/project-web-design.png",
+      "img_alt": "Project Web Design",
+      "content": "[Search](#search)\r\n=================\r\n\r\nLectures 1 and 2 are not required to complete this project, but may prove helpful if you’re struggling to _submit_ it, since they teach Git, among other topics!\r\n\r\nDesign a front-end for Google Search, Google Image Search, and Google Advanced Search.\r\n\r\n[Background](#background)\r\n-------------------------\r\n\r\nRecall from lecture that we can create an HTML form using a `<form>` tag and can add `<input>` tags to create input fields for that form. Later in the course, we’ll see how to write web applications that can accept form data as input. For this project, we’ll write forms that send data to an existing web server: in this case, Google’s.\r\n\r\nWhen you perform a Google search, as by typing in a query into Google’s homepage and clicking the “Google Search” button, how does that query work? Let’s try to find out.\r\n\r\nNavigate to [google.com](https://www.google.com/), type in a query like “Harvard” into the search field, and click the “Google Search” button.\r\n\r\nAs you probably expected, you should see Google search results for “Harvard.” But now, take a look at the URL. It should begin with `https://www.google.com/search`, the route on Google’s website that allows for searching. But following the route is a `?`, followed by some additional information.\r\n\r\nThose additional pieces of information in the URL are known as a query string. The query string consists of a sequence of GET parameters, where each parameter has a name and a value. Query strings are generally formatted as\r\n\r\n    field1=value1&field2=value2&field3=value3...\r\n    \r\n\r\nwhere an `=` separates the name of the parameter from its value, and the `&` symbol separates parameters from one another. These parameters are a way for forms to submit information to a web server, by encoding the form data in the URL.\r\n\r\nTake a look at the URL for your Google search results page. It seems there are quite a few parameters that Google is using. Look through the URL (it may be helpful to copy/paste it into a text editor), and see if you can find any mention of “Harvard,” our query.\r\n\r\nIf you look through the URL, you should see that one of the GET parameters in the URL is `q=Harvard`. This suggests that the name for the parameter corresponding to a Google search is `q` (likely short for “query”).\r\n\r\nIt turns out that, while the other parameters provide useful data to Google, only the `q` parameter is required to perform a search. You can test this for yourself by visiting `https://www.google.com/search?q=Harvard`, deleting all the other parameters. You should see the same Google results!\r\n\r\nUsing this information, we can actually re-implement a front end for Google’s homepage. Paste the below into an HTML file called `index.html`, and open it in a browser. You can alternatively download the `index.html` file directly from the “Getting Started” section below.\r\n\r\n    <!DOCTYPE html>\r\n    <html lang=\"en\">\r\n        <head>\r\n            <title>Search</title>\r\n        </head>\r\n        <body>\r\n            <form action=\"https://www.google.com/search\">\r\n                <input type=\"text\" name=\"q\">\r\n                <input type=\"submit\" value=\"Google Search\">\r\n            </form>\r\n        </body>\r\n    </html>\r\n    \r\n\r\nWhen you open this page in a browser, you should see a (very simple) HTML form. Type in a search query like “Harvard” and click “Google Search”, and you should be taken to Google’s search results page!\r\n\r\nHow did that work? In this case, the `action` attribute on the `form` told the browser that when the form is submitted, the data should be sent to `https://www.google.com/search`. And by adding an `input` field to the form whose `name` attribute was `q`, whatever the user types into that input field is included as a GET parameter in the URL.\r\n\r\nYour task in this project is to expand on this site, creating your own front end for Google Search, as by exploring Google’s interface to identify what GET parameters it expects and adding the necessary HTML and CSS to your website.\r\n\r\n[Getting Started](#getting-started)\r\n-----------------------------------\r\n\r\n*   Download the distribution code from [https://cdn.cs50.net/web/2020/spring/projects/0/search.zip](https://cdn.cs50.net/web/2020/spring/projects/0/search.zip) and unzip it. You can skip this step if you manually created the `index.html` file by following the steps outlined in the “Background” section above.\r\n\r\n[Specification](#specification)\r\n-------------------------------\r\n\r\nYour website must meet the following requirements:\r\n\r\n*   Your website should have at least three pages: one for regular Google Search (which must be called `index.html`), one for Google Image Search, and one for Google Advanced Search.\r\n    *   On the Google Search page, there should be links in the upper-right of the page to go to Image Search or Advanced Search. On each of the other two pages, there should be a link in the upper-right to go back to Google Search.\r\n*   On the Google Search page, the user should be able to type in a query, click “Google Search”, and be taken to the Google search results for that page.\r\n    *   Like Google’s own, your search bar should be centered with rounded corners. The search button should also be centered, and should be beneath the search bar.\r\n*   On the Google Image Search page, the user should be able to type in a query, click a search button, and be taken to the Google Image search results for that page.\r\n*   On the Google Advanced Search page, the user should be able to provide input for the following four fields (taken from Google’s own [advanced search](https://www.google.com/advanced_search) options)\r\n    *   Find pages with… “all these words:”\r\n    *   Find pages with… “this exact word or phrase:”\r\n    *   Find pages with… “any of these words:”\r\n    *   Find pages with… “none of these words:”\r\n*   Like Google’s own Advanced Search page, the four options should be stacked vertically, and all of the text fields should be left aligned.\r\n    *   Consistent with Google’s own CSS, the “Advanced Search” button should be blue with white text.\r\n    *   When the “Advanced Search” button is clicked, the user should be taken to the search results page for their given query.\r\n*   Add an “I’m Feeling Lucky” button to the main Google Search page. Consistent with Google’s own behavior, clicking this link should take users directly to the first Google search result for the query, bypassing the normal results page.\r\n    *   You may encounter a redirect notice when using the “I’m Feeling Lucky” button. Not to worry! This is an expected consequence of a security feature implemented by Google.\r\n*   The CSS you write should resemble Google’s own aesthetics.\r\n\r\n[Hints](#hints)\r\n---------------\r\n\r\n*   To determine what the parameter names should be, you’re welcome to experiment with making Google searches, and looking at the resulting URL. It may also be helpful to open the “Network” inspector (accessible in Google Chrome by choosing View -> Developer -> Developer Tools) to view details about requests your browser makes to Google.\r\n    *   Any `<input>` element (whether its `type` is `text`, `submit`, `number`, or something else entirely) can have `name` and `value` attributes that will become GET parameters when a form is submitted.\r\n    *   You may also find it helpful to look at Google’s own HTML to answer these questions. In most browsers, you can control-click or right-click on a page and choose “View Page Source” to view the page’s underlying HTML.\r\n*   To include an input field in a form that users cannot see or modify, you can use a [“hidden”](https://www.w3schools.com/tags/att_input_type_hidden.asp) input field.\r\n\r\n[How to Submit](#how-to-submit)\r\n-------------------------------\r\n\r\n1.  Visit [this link](https://submit.cs50.io/invites/89679428401548238ceb022f141b9947), log in with your GitHub account, and click **Authorize cs50**. Then, check the box indicating that you’d like to grant course staff access to your submissions, and click **Join course**.\r\n2.  [Install Git](https://git-scm.com/downloads) and, optionally, [install `submit50`](https://cs50.readthedocs.io/submit50/).\r\n\r\nWhen you submit your project, the contents of your `web50/projects/2020/x/search` branch should match the file structure of the unzipped distribution code as originally received. That is to say, your files should not be nested inside of any other directories of your own creation (`search` or `project0`, for example). Your branch should also not contain any code from any other projects, only this one. Failure to adhere to this file structure will likely result in your submission being rejected.\r\n\r\nBy way of example, for this project that means that if the grading staff visits `https://github.com/me50/USERNAME/blob/web50/projects/2020/x/search/index.html` (where `USERNAME` is your own GitHub username as provided in the form, below) your submission for `index.html` for this project should be what appears. If it doesn’t, reorganize your repository as needed to match this paradigm.\r\n\r\n3.  If you’ve installed `submit50`, execute\r\n    \r\n        submit50 web50/projects/2020/x/search\r\n        \r\n    \r\n    Otherwise, using Git, push your work to `https://github.com/me50/USERNAME.git`, where `USERNAME` is your GitHub username, on a branch called `web50/projects/2020/x/search`.\r\n    \r\n4.  [Record a screencast](https://www.howtogeek.com/205742/how-to-record-your-windows-mac-linux-android-or-ios-screen/) not to exceed 5 minutes in length (and not uploaded more than one month prior to your submission of this project), in which you demonstrate your project’s functionality. **Your URL bar must remain visible throughout your demonstration of the project.** Be certain that every element of the specification, above, is demonstrated in your video. There’s no need to show your code in this video, just your application in action; we’ll review your code on GitHub. [Upload that video to YouTube](https://www.youtube.com/upload) (as unlisted or public, but not private) or somewhere else. In your video’s description, you must timestamp where your video demonstrates each of the seven (7) elements of the specification. **This is not optional**, videos without timestamps in their description will be automatically rejected.\r\n5.  Submit [this form](https://forms.cs50.io/f51d109b-b689-42d9-bb5b-7e5f43d81d7d).\r\n\r\nYou can then go to [https://cs50.me/cs50w](https://cs50.me/cs50w) to view your current progress!",
+      "stacks": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "model": "portfolio.project",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "name": "Project 1",
+      "description": "Design a Wikipedia-like online encyclopedia.",
+      "timestamp": "2023-02-03T14:16:36.165Z",
+      "img_src": "/assets/images/project-maps.png",
+      "img_alt": "Project Maps",
+      "content": "[Wiki](#wiki)\r\n=============\r\n\r\nCS50W does not feature a one-to-one correspondence between lectures and projects. If you are attempting this project without having at least watched Lecture 3, you’re trying this too soon!\r\n\r\nDesign a Wikipedia-like online encyclopedia.\r\n\r\n[Background](#background)\r\n-------------------------\r\n\r\n[Wikipedia](https://www.wikipedia.org/) is a free online encyclopedia that consists of a number of encyclopedia entries on various topics.\r\n\r\nEach encyclopedia entry can be viewed by visiting that entry’s page. Visiting [https://en.wikipedia.org/wiki/HTML](https://en.wikipedia.org/wiki/HTML), for example, shows the Wikipedia entry for HTML. Notice that the name of the requested page (HTML) is specified in the route `/wiki/HTML`. Recognize too, that the page’s content must just be HTML that your browser renders.\r\n\r\nIn practice, it would start to get tedious if every page on Wikipedia had to be written in HTML. Instead, it can be helpful to store encyclopedia entries using a lighter-weight human-friendly markup language. Wikipedia happens to use a markup language called [Wikitext](https://en.wikipedia.org/wiki/Help:Wikitext), but for this project we’ll store encyclopedia entries using a markup language called Markdown.\r\n\r\nRead through [GitHub’s Markdown guide](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) to get an understanding for how Markdown’s syntax works. Pay attention in particular to what Markdown syntax looks like for headings, bold text, links, and lists.\r\n\r\nBy having one Markdown file represent each encyclopedia entry, we can make our entries more human-friendly to write and edit. When a user views our encyclopedia entry, though, we’ll need to convert that Markdown into HTML before displaying it to the user.\r\n\r\n[Getting Started](#getting-started)\r\n-----------------------------------\r\n\r\n*   Download the distribution code from [https://cdn.cs50.net/web/2020/spring/projects/1/wiki.zip](https://cdn.cs50.net/web/2020/spring/projects/1/wiki.zip) and unzip it.\r\n\r\n[Understanding](#understanding)\r\n-------------------------------\r\n\r\nIn the distribution code is a Django project called `wiki` that contains a single app called `encyclopedia`.\r\n\r\nFirst, open up `encyclopedia/urls.py`, where the URL configuration for this app is defined. Notice that we’ve started you with a single default route that is associated with the `views.index` function.\r\n\r\nNext, look at `encyclopedia/util.py`. You won’t need to change anything in this file, but notice that there are three functions that may prove useful for interacting with encyclopedia entries. `list_entries` returns a list of the names of all encyclopedia entries currently saved. `save_entry` will save a new encyclopedia entry, given its title and some Markdown content. `get_entry` will retrieve an encyclopedia entry by its title, returning its Markdown contents if the entry exists or `None` if the entry does not exist. Any of the views you write may use these functions to interact with encyclopedia entries.\r\n\r\nEach encyclopedia entry will be saved as a Markdown file inside of the `entries/` directory. If you check there now, you’ll see we’ve pre-created a few sample entries. You’re welcome to add more!\r\n\r\nNow, let’s look at `encyclopedia/views.py`. There’s just one view here now, the `index` view. This view returns a template `encyclopedia/index.html`, providing the template with a list of all of the entries in the encyclopedia (obtained by calling `util.list_entries`, which we saw defined in `util.py`).\r\n\r\nYou can find the template by looking at `encyclopedia/templates/encyclopedia/index.html`. This template inherits from a base `layout.html` file and specifies what the page’s title should be, and what should be in the body of the page: in this case, an unordered list of all of the entries in the encyclopedia. `layout.html`, meanwhile, defines the broader structure of the page: each page has a sidebar with a search field (that for now does nothing), a link to go home, and links (that don’t yet work) to create a new page or visit a random page.\r\n\r\n[Specification](#specification)\r\n-------------------------------\r\n\r\nComplete the implementation of your Wiki encyclopedia. You must fulfill the following requirements:\r\n\r\n*   **Entry Page**: Visiting `/wiki/TITLE`, where `TITLE` is the title of an encyclopedia entry, should render a page that displays the contents of that encyclopedia entry.\r\n    *   The view should get the content of the encyclopedia entry by calling the appropriate `util` function.\r\n    *   If an entry is requested that does not exist, the user should be presented with an error page indicating that their requested page was not found.\r\n    *   If the entry does exist, the user should be presented with a page that displays the content of the entry. The title of the page should include the name of the entry.\r\n*   **Index Page**: Update `index.html` such that, instead of merely listing the names of all pages in the encyclopedia, user can click on any entry name to be taken directly to that entry page.\r\n*   **Search**: Allow the user to type a query into the search box in the sidebar to search for an encyclopedia entry.\r\n    *   If the query matches the name of an encyclopedia entry, the user should be redirected to that entry’s page.\r\n    *   If the query does not match the name of an encyclopedia entry, the user should instead be taken to a search results page that displays a list of all encyclopedia entries that have the query as a substring. For example, if the search query were `ytho`, then `Python` should appear in the search results.\r\n    *   Clicking on any of the entry names on the search results page should take the user to that entry’s page.\r\n*   **New Page**: Clicking “Create New Page” in the sidebar should take the user to a page where they can create a new encyclopedia entry.\r\n    *   Users should be able to enter a title for the page and, in a [`textarea`](https://www.w3schools.com/tags/tag_textarea.asp), should be able to enter the Markdown content for the page.\r\n    *   Users should be able to click a button to save their new page.\r\n    *   When the page is saved, if an encyclopedia entry already exists with the provided title, the user should be presented with an error message.\r\n    *   Otherwise, the encyclopedia entry should be saved to disk, and the user should be taken to the new entry’s page.\r\n*   **Edit Page**: On each entry page, the user should be able to click a link to be taken to a page where the user can edit that entry’s Markdown content in a `textarea`.\r\n    *   The `textarea` should be pre-populated with the existing Markdown content of the page. (i.e., the existing content should be the initial `value` of the `textarea`).\r\n    *   The user should be able to click a button to save the changes made to the entry.\r\n    *   Once the entry is saved, the user should be redirected back to that entry’s page.\r\n*   **Random Page**: Clicking “Random Page” in the sidebar should take user to a random encyclopedia entry.\r\n*   **Markdown to HTML Conversion**: On each entry’s page, any Markdown content in the entry file should be converted to HTML before being displayed to the user. You may use the [`python-markdown2`](https://github.com/trentm/python-markdown2) package to perform this conversion, installable via `pip3 install markdown2`.\r\n    *   Challenge for those more comfortable: If you’re feeling more comfortable, try implementing the Markdown to HTML conversion without using any external libraries, supporting headings, boldface text, unordered lists, links, and paragraphs. You may find [using regular expressions in Python](https://docs.python.org/3/howto/regex.html) helpful.\r\n\r\n[Hints](#hints)\r\n---------------\r\n\r\n*   By default, when substituting a value in a Django template, Django HTML-escapes the value to avoid outputting unintended HTML. If you want to allow for an HTML string to be outputted, you can do so with the [`safe`](https://docs.djangoproject.com/en/4.0/ref/templates/builtins/#safe) filter (as by adding `|safe` after the variable name you’re substituting).\r\n\r\nUsing the CS50 Codespace?\r\n\r\nIf you are using the CS50 Codespace and encounter the 403 - CSRF Origin checking error message when trying to submit a form, you will need to update your project’s `settings.py` to add the following line:\r\n\r\n    CSRF_TRUSTED_ORIGINS = ['https://CODESPACE-URL-8000.preview.app.github.dev']\r\n    \r\n\r\nreplacing `CODESPACE-URL` with the actual URL that you see in your browser bar when running the Codespace.\r\n\r\n[How to Submit](#how-to-submit)\r\n-------------------------------\r\n\r\n1.  Visit [this link](https://submit.cs50.io/invites/89679428401548238ceb022f141b9947), log in with your GitHub account, and click **Authorize cs50**. Then, check the box indicating that you’d like to grant course staff access to your submissions, and click **Join course**.\r\n2.  [Install Git](https://git-scm.com/downloads) and, optionally, [install `submit50`](https://cs50.readthedocs.io/submit50/).\r\n\r\nWhen you submit your project, the contents of your `web50/projects/2020/x/wiki` branch should match the file structure of the unzipped distribution code as originally received. That is to say, your files should not be nested inside of any other directories of your own creation. Your branch should also not contain any code from any other projects, only this one. Failure to adhere to this file structure will likely result in your submission being rejected.\r\n\r\nBy way of example, for this project that means that if the grading staff visits `https://github.com/me50/USERNAME/tree/web50/projects/2020/x/wiki` (where `USERNAME` is your own GitHub username as provided in the form, below) we should see the three subdirectories (`encyclopedia`, `entries`, `wiki`) and the `manage.py` file. If that’s not how your code is organized when you check, reorganize your repository as needed to match this paradigm.\r\n\r\n3.  If you’ve installed `submit50`, execute\r\n    \r\n        submit50 web50/projects/2020/x/wiki\r\n        \r\n    \r\n    Otherwise, using Git, push your work to `https://github.com/me50/USERNAME.git`, where `USERNAME` is your GitHub username, on a branch called `web50/projects/2020/x/wiki`.\r\n    \r\n4.  [Record a screencast](https://www.howtogeek.com/205742/how-to-record-your-windows-mac-linux-android-or-ios-screen/) not to exceed 5 minutes in length (and not uploaded more than one month prior to your submission of this project), in which you demonstrate your project’s functionality. Be certain that every element of the specification, above, is demonstrated in your video. There’s no need to show your code in this video, just your application in action; we’ll review your code on GitHub. [Upload that video to YouTube](https://www.youtube.com/upload) (as unlisted or public, but not private) or somewhere else. In your video’s description, you must timestamp where your video demonstrates each of the seven (7) primary elements of the specification. **This is not optional**, videos without timestamps in their description will be automatically rejected.\r\n5.  Submit [this form](https://forms.cs50.io/3c63f236-9f6c-4584-923b-f3f230a3e7a0).\r\n\r\nYou can then go to [https://cs50.me/cs50w](https://cs50.me/cs50w) to view your current progress!",
+      "stacks": [
+        7,
+        8,
+        9
+      ]
+    }
+  },
+  {
+    "model": "portfolio.project",
+    "pk": 4,
+    "fields": {
+      "user": 1,
+      "name": "Project 2",
+      "description": "Design an eBay-like e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on those listings, and add listings to a “watchlist.”",
+      "timestamp": "2023-02-03T14:17:58.370Z",
+      "img_src": "/assets/images/project-fire.png",
+      "img_alt": "Project Fire",
+      "content": "[Commerce](#commerce)\r\n=====================\r\n\r\nCS50W does not feature a one-to-one correspondence between lectures and projects. If you are attempting this project without having at least watched Lecture 4, you’re trying this too soon!\r\n\r\nDesign an eBay-like e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on those listings, and add listings to a “watchlist.”\r\n\r\n![Active listings page](https://cs50.harvard.edu/web/2020/projects/2/images/listings.png)\r\n\r\n![Listing page](https://cs50.harvard.edu/web/2020/projects/2/images/listing.png)\r\n\r\n[Getting Started](#getting-started)\r\n-----------------------------------\r\n\r\n1.  Download the distribution code from [https://cdn.cs50.net/web/2020/spring/projects/2/commerce.zip](https://cdn.cs50.net/web/2020/spring/projects/2/commerce.zip) and unzip it.\r\n2.  In your terminal, `cd` into the `commerce` directory.\r\n3.  Run `python manage.py makemigrations auctions` to make migrations for the `auctions` app.\r\n4.  Run `python manage.py migrate` to apply migrations to your database.\r\n\r\n[Understanding](#understanding)\r\n-------------------------------\r\n\r\nIn the distribution code is a Django project called `commerce` that contains a single app called `auctions`.\r\n\r\nFirst, open up `auctions/urls.py`, where the URL configuration for this app is defined. Notice that we’ve already written a few URLs for you, including a default index route, a `/login` route, a `/logout` route, and a `/register` route.\r\n\r\nTake a look at `auctions/views.py` to see the views that are associated with each of these routes. The index view for now returns a mostly-empty `index.html` template. The `login_view` view renders a login form when a user tries to GET the page. When a user submits the form using the POST request method, the user is authenticated, logged in, and redirected to the index page. The `logout_view` view logs the user out and redirects them to the index page. Finally, the `register` route displays a registration form to the user, and creates a new user when the form is submitted. All of this is done for you in the distribution code, so you should be able to run the application now to create some users.\r\n\r\nRun `python manage.py runserver` to start up the Django web server, and visit the website in your browser. Click “Register” and register for an account. You should see that you are now “Signed in as” your user account, and the links at the top of the page have changed. How did the HTML change? Take a look at `auctions/templates/auctions/layout.html` for the HTML layout of this application. Notice that several parts of the template are wrapped in a check for if `user.is_authenticated`, so that different content can be rendered depending on whether the user is signed in or not. You’re welcome to change this file if you’d like to add or modify anything in the layout!\r\n\r\nFinally, take a look at `auctions/models.py`. This is where you will define any models for your web application, where each model represents some type of data you want to store in your database. We’ve started you with a `User` model that represents each user of the application. Because it inherits from `AbstractUser`, it will already have fields for a username, email, password, etc., but you’re welcome to add new fields to the `User` class if there is additional information about a user that you wish to represent. You will also need to add additional models to this file to represent details about auction listings, bids, comments, and auction categories. Remember that each time you change anything in `auctions/models.py`, you’ll need to first run `python manage.py makemigrations` and then `python manage.py migrate` to migrate those changes to your database.\r\n\r\n[Specification](#specification)\r\n-------------------------------\r\n\r\nComplete the implementation of your auction site. You must fulfill the following requirements:\r\n\r\n*   **Models**: Your application should have at least three models in addition to the `User` model: one for auction listings, one for bids, and one for comments made on auction listings. It’s up to you to decide what fields each model should have, and what the types of those fields should be. You may have additional models if you would like.\r\n*   **Create Listing**: Users should be able to visit a page to create a new listing. They should be able to specify a title for the listing, a text-based description, and what the starting bid should be. Users should also optionally be able to provide a URL for an image for the listing and/or a category (e.g. Fashion, Toys, Electronics, Home, etc.).\r\n*   **Active Listings Page**: The default route of your web application should let users view all of the currently active auction listings. For each active listing, this page should display (at minimum) the title, description, current price, and photo (if one exists for the listing).\r\n*   **Listing Page**: Clicking on a listing should take users to a page specific to that listing. On that page, users should be able to view all details about the listing, including the current price for the listing.\r\n    *   If the user is signed in, the user should be able to add the item to their “Watchlist.” If the item is already on the watchlist, the user should be able to remove it.\r\n    *   If the user is signed in, the user should be able to bid on the item. The bid must be at least as large as the starting bid, and must be greater than any other bids that have been placed (if any). If the bid doesn’t meet those criteria, the user should be presented with an error.\r\n    *   If the user is signed in and is the one who created the listing, the user should have the ability to “close” the auction from this page, which makes the highest bidder the winner of the auction and makes the listing no longer active.\r\n    *   If a user is signed in on a closed listing page, and the user has won that auction, the page should say so.\r\n    *   Users who are signed in should be able to add comments to the listing page. The listing page should display all comments that have been made on the listing.\r\n*   **Watchlist**: Users who are signed in should be able to visit a Watchlist page, which should display all of the listings that a user has added to their watchlist. Clicking on any of those listings should take the user to that listing’s page.\r\n*   **Categories**: Users should be able to visit a page that displays a list of all listing categories. Clicking on the name of any category should take the user to a page that displays all of the active listings in that category.\r\n*   **Django Admin Interface**: Via the Django admin interface, a site administrator should be able to view, add, edit, and delete any listings, comments, and bids made on the site.\r\n\r\n[Hints](#hints)\r\n---------------\r\n\r\n*   To create a superuser account that can access Django’s admin interface, run `python manage.py createsuperuser`.\r\n*   See Django’s [Model field reference](https://docs.djangoproject.com/en/4.0/ref/models/fields/) for possible field types for your Django model.\r\n*   You’ll likely need to create some [Django forms](https://docs.djangoproject.com/en/4.0/topics/forms/) for various parts of this web application.\r\n*   Adding the [`@login_required` decorator](https://docs.djangoproject.com/en/4.0/topics/auth/default/#the-login-required-decorator) on top of any view will ensure that only a user who is logged in can access that view.\r\n*   You’re welcome to modify the CSS as much as you’d like, to make the website your own! Some sample screenshots are shown at the top of this page. These are meant only to be examples: your application need not be aesthetically the same as the screenshots here (you’re encouraged to be creative!).\r\n\r\n[How to Submit](#how-to-submit)\r\n-------------------------------\r\n\r\n1.  Visit [this link](https://submit.cs50.io/invites/89679428401548238ceb022f141b9947), log in with your GitHub account, and click **Authorize cs50**. Then, check the box indicating that you’d like to grant course staff access to your submissions, and click **Join course**.\r\n2.  [Install Git](https://git-scm.com/downloads) and, optionally, [install `submit50`](https://cs50.readthedocs.io/submit50/).\r\n\r\nWhen you submit your project, the contents of your `web50/projects/2020/x/commerce` branch should match the file structure of the unzipped distribution code as originally received. That is to say, your files should not be nested inside of any other directories of your own creation. Your branch should also not contain any code from any other projects, only this one. Failure to adhere to this file structure will likely result in your submission being rejected.\r\n\r\nBy way of example, for this project that means that if the grading staff visits `https://github.com/me50/USERNAME/tree/web50/projects/2020/x/commerce` (where `USERNAME` is your own GitHub username as provided in the form, below) we should see the two subdirectories (`auctions`, `commerce`) and the `manage.py` file. If that’s not how your code is organized when you check, reorganize your repository needed to match this paradigm.\r\n\r\n3.  If you’ve installed `submit50`, execute\r\n    \r\n        submit50 web50/projects/2020/x/commerce\r\n        \r\n    \r\n    Otherwise, using Git, push your work to `https://github.com/me50/USERNAME.git`, where `USERNAME` is your GitHub username, on a branch called `web50/projects/2020/x/commerce`.\r\n    \r\n4.  [Record a screencast](https://www.howtogeek.com/205742/how-to-record-your-windows-mac-linux-android-or-ios-screen/) not to exceed 5 minutes in length (and not uploaded more than one month prior to your submission of this project), in which you demonstrate your project’s functionality. Be certain that every element of the specification, above, is demonstrated in your video. There’s no need to show your code in this video, just your application in action; we’ll review your code on GitHub. [Upload that video to YouTube](https://www.youtube.com/upload) (as unlisted or public, but not private) or somewhere else. In your video’s description, you must timestamp where your video demonstrates each of the seven (7) elements of the specification. **This is not optional**, videos without timestamps in their description will be automatically rejected.\r\n5.  Submit [this form](https://forms.cs50.io/b87fb5a9-d373-44ba-aa98-94d4ee3eed38).\r\n\r\nYou can then go to [https://cs50.me/cs50w](https://cs50.me/cs50w) to view your current progress!",
+      "stacks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  },
+  {
+    "model": "portfolio.project",
+    "pk": 5,
+    "fields": {
+      "user": 1,
+      "name": "Project 3",
+      "description": "Design a front-end for an email client that makes API calls to send and receive emails.",
+      "timestamp": "2023-02-03T14:20:59.277Z",
+      "img_src": "/assets/images/project-maps.png",
+      "img_alt": "Project Maps",
+      "content": "[Mail](#mail)\r\n=============\r\n\r\nCS50W does not feature a one-to-one correspondence between lectures and projects. If you are attempting this project without having at least watched Lecture 5, you’re trying this too soon!\r\n\r\nDesign a front-end for an email client that makes API calls to send and receive emails.\r\n\r\n![Inbox page](https://cs50.harvard.edu/web/2020/projects/3/images/inbox.png)\r\n\r\n![Email page](https://cs50.harvard.edu/web/2020/projects/3/images/email.png)\r\n\r\n[Getting Started](#getting-started)\r\n-----------------------------------\r\n\r\n1.  Download the distribution code from [https://cdn.cs50.net/web/2020/spring/projects/3/mail.zip](https://cdn.cs50.net/web/2020/spring/projects/3/mail.zip) and unzip it.\r\n2.  In your terminal, `cd` into the `mail` directory.\r\n3.  Run `python manage.py makemigrations mail` to make migrations for the `mail` app.\r\n4.  Run `python manage.py migrate` to apply migrations to your database.\r\n\r\n[Understanding](#understanding)\r\n-------------------------------\r\n\r\nIn the distribution code is a Django project called `project3` that contains a single app called `mail`.\r\n\r\nFirst, after making and applying migrations for the project, run `python manage.py runserver` to start the web server. Open the web server in your browser, and use the “Register” link to register for a new account. The emails you’ll be sending and receiving in this project will be entirely stored in your database (they won’t actually be sent to real email servers), so you’re welcome to choose any email address (e.g. `foo@example.com`) and password you’d like for this project: credentials need not be valid credentials for actual email addresses.\r\n\r\nOnce you’re signed in, you should see yourself taken to the Inbox page of the mail client, though this page is mostly blank (for now). Click the buttons to navigate to your Sent and Archived mailboxes, and notice how those, too, are currently blank. Click the “Compose” button, and you’ll be taken to a form that will let you compose a new email. Each time you click a button, though, you’re not being taken to a new route or making a new web request: instead, this entire application is just a single page, with JavaScript used to control the user interface. Let’s now take a closer look at the distribution code to see how that works.\r\n\r\nTake a look at `mail/urls.py` and notice that the default route loads an `index` function in `views.py`. So let’s up `views.py` and look at the `index` function. Notice that, as long as the user is signed in, this function renders the `mail/inbox.html` template. Let’s look at that template, stored at `mail/templates/mail/inbox.html`. You’ll notice that in the body of the page, the user’s email address is first displayed in an `h2` element. After that, the page has a sequence of buttons for navigating between various pages of the app. Below that, notice that this page has two main sections, each defined by a `div` element. The first (with an `id` of `emails-view`) contains the content of an email mailbox (initially empty). The second (with an `id` of `compose-view`) contains a form where the user can compose a new email. The buttons along the top, then, need to selectively show and hide these views: the compose button, for example, should hide the `emails-view` and show the `compose-view`; the inbox button, meanwhile, should hide the `compose-view` and show the `emails-view`.\r\n\r\nHow do they do that? Notice at the bottom of `inbox.html`, the JavaScript file `mail/inbox.js` is included. Open that file, stored at `mail/static/mail/inbox.js`, and take a look. Notice that when the DOM content of the page has been loaded, we attach event listeners to each of the buttons. When the `inbox` button is clicked, for example, we call the `load_mailbox` function with the argument `'inbox'`; when the `compose` button is clicked, meanwhile, we call the `compose_email` function. What do these functions do? The `compose_email` function first hides the `emails-view` (by setting its `style.display` property to `none`) and shows the `compose-view` (by setting its `style.display` property to `block`). After that, the function takes all of the form input fields (where the user might type in a recipient email address, subject line, and email body) and sets their value to the empty string `''` to clear them out. This means that every time you click the “Compose” button, you should be presented with a blank email form: you can test this by typing values into form, switching the view to the Inbox, and then switching back to the Compose view.\r\n\r\nMeanwhile, the `load_mailbox` function first shows the `emails-view` and hides the `compose-view`. The `load_mailbox` function also takes an argument, which will be the name of the mailbox that the user is trying to view. For this project, you’ll design an email client with three mailboxes: an `inbox`, a `sent` mailbox of all sent mail, and an `archive` of emails that were once in the inbox but have since been archived. The argument to `load_mailbox`, then, will be one of those three values, and the `load_mailbox` function displays the name of the selected mailbox by updating the `innerHTML` of the `emails-view` (after capitalizing the first character). This is why, when you choose a mailbox name in the browser, you see the name of that mailbox (capitalized) appear in the DOM: the `load_mailbox` function is updating the `emails-view` to include the appropriate text.\r\n\r\nOf course, this application is incomplete. All of the mailboxes simply show the name of the mailbox (Inbox, Sent, Archive) but don’t actually show any emails yet. There’s no view yet to actually see the contents of any email. And the compose form will let you type in the contents of an email, but the button to send the email doesn’t actually do anything. That’s where you come in!\r\n\r\n### [API](#api)\r\n\r\nYou’ll get mail, send mail, and update emails by using this application’s API. We’ve written the entire API for you (and documented it below), so that you can use it in your JavaScript code. (In fact, note that we have written **all** of the Python code for you for this project. You should be able to complete this project by just writing HTML and JavaScript).\r\n\r\nThis application supports the following API routes:\r\n\r\n#### [`GET /emails/<str:mailbox>`](#get-emailsstrmailbox)\r\n\r\nSending a `GET` request to `/emails/<mailbox>` where `<mailbox>` is either `inbox`, `sent`, or `archive` will return back to you (in JSON form) a list of all emails in that mailbox, in reverse chronological order. For example, if you send a `GET` request to `/emails/inbox`, you might get a JSON response like the below (representing two emails):\r\n\r\n    [\r\n        {\r\n            \"id\": 100,\r\n            \"sender\": \"foo@example.com\",\r\n            \"recipients\": [\"bar@example.com\"],\r\n            \"subject\": \"Hello!\",\r\n            \"body\": \"Hello, world!\",\r\n            \"timestamp\": \"Jan 2 2020, 12:00 AM\",\r\n            \"read\": false,\r\n            \"archived\": false\r\n        },\r\n        {\r\n            \"id\": 95,\r\n            \"sender\": \"baz@example.com\",\r\n            \"recipients\": [\"bar@example.com\"],\r\n            \"subject\": \"Meeting Tomorrow\",\r\n            \"body\": \"What time are we meeting?\",\r\n            \"timestamp\": \"Jan 1 2020, 12:00 AM\",\r\n            \"read\": true,\r\n            \"archived\": false\r\n        }\r\n    ]\r\n    \r\n\r\nNotice that each email specifies its `id` (a unique identifier), a `sender` email address, an array of `recipients`, a string for `subject`, `body`, and `timestamp`, as well as two boolean values indicating whether the email has been `read` and whether the email has been `archived`.\r\n\r\nHow would you get access to such values in JavaScript? Recall that in JavaScript, you can use `fetch` to make a web request. Therefore, the following JavaScript code\r\n\r\n    fetch('/emails/inbox')\r\n    .then(response => response.json())\r\n    .then(emails => {\r\n        // Print emails\r\n        console.log(emails);\r\n    \r\n        // ... do something else with emails ...\r\n    });\r\n    \r\n\r\nwould make a `GET` request to `/emails/inbox`, convert the resulting response into JSON, and then provide to you the array of emails inside of the variable `emails`. You can print that value out to the browser’s console using `console.log` (if you don’t have any emails in your inbox, this will be an empty array), or do something else with that array.\r\n\r\nNote also that if you request an invalid mailbox (anything other than `inbox`, `sent`, or `archive`), you’ll instead get back the JSON response `{\"error\": \"Invalid mailbox.\"}`.\r\n\r\n#### [`GET /emails/<int:email_id>`](#get-emailsintemail_id)\r\n\r\nSending a `GET` request to `/emails/email_id` where `email_id` is an integer id for an email will return a JSON representation of the email, like the below:\r\n\r\n    {\r\n            \"id\": 100,\r\n            \"sender\": \"foo@example.com\",\r\n            \"recipients\": [\"bar@example.com\"],\r\n            \"subject\": \"Hello!\",\r\n            \"body\": \"Hello, world!\",\r\n            \"timestamp\": \"Jan 2 2020, 12:00 AM\",\r\n            \"read\": false,\r\n            \"archived\": false\r\n    }\r\n    \r\n\r\nNote that if the email doesn’t exist, or if the user does not have access to the email, the route instead return a 404 Not Found error with a JSON response of `{\"error\": \"Email not found.\"}`.\r\n\r\nTo get email number 100, for example, you might write JavaScript code like\r\n\r\n    fetch('/emails/100')\r\n    .then(response => response.json())\r\n    .then(email => {\r\n        // Print email\r\n        console.log(email);\r\n    \r\n        // ... do something else with email ...\r\n    });\r\n    \r\n\r\n#### [`POST /emails`](#post-emails)\r\n\r\nSo far, we’ve seen how to get emails: either all of the emails in a mailbox, or just a single email. To send an email, you can send a `POST` request to the `/emails` route. The route requires three pieces of data to be submitted: a `recipients` value (a comma-separated string of all users to send an email to), a `subject` string, and a `body` string. For example, you could write JavaScript code like\r\n\r\n    fetch('/emails', {\r\n      method: 'POST',\r\n      body: JSON.stringify({\r\n          recipients: 'baz@example.com',\r\n          subject: 'Meeting time',\r\n          body: 'How about we meet tomorrow at 3pm?'\r\n      })\r\n    })\r\n    .then(response => response.json())\r\n    .then(result => {\r\n        // Print result\r\n        console.log(result);\r\n    });\r\n    \r\n\r\nIf the email is sent successfully, the route will respond with a 201 status code and a JSON response of `{\"message\": \"Email sent successfully.\"}`.\r\n\r\nNote that there must be at least one email recipient: if one isn’t provided, the route will instead respond with a 400 status code and a JSON response of `{\"error\": \"At least one recipient required.\"}`. All recipients must also be valid users who have registered on this particular web application: if you try to send an email to `baz@example.com` but there is no user with that email address, you’ll get a JSON response of `{\"error\": \"User with email baz@example.com does not exist.\"}`.\r\n\r\n#### [`PUT /emails/<int:email_id>`](#put-emailsintemail_id)\r\n\r\nThe final route that you’ll need is the ability to mark an email as read/unread or as archived/unarchived. To do so, send a `PUT` request (instead of a `GET`) request to `/emails/<email_id>` where `email_id` is the id of the email you’re trying to modify. For example, JavaScript code like\r\n\r\n    fetch('/emails/100', {\r\n      method: 'PUT',\r\n      body: JSON.stringify({\r\n          archived: true\r\n      })\r\n    })\r\n    \r\n\r\nwould mark email number 100 as archived. The body of the `PUT` request could also be `{archived: false}` to unarchive the message, and likewise could be either `{read: true}` or `read: false}` to mark the email as read or unread, respectively.\r\n\r\nUsing these four API routes (getting all emails in a mailbox, getting a single email, sending an email, and updating an existing email), you should have all the tools you now need to complete this project!\r\n\r\n[Specification](#specification)\r\n-------------------------------\r\n\r\nUsing JavaScript, HTML, and CSS, complete the implementation of your single-page-app email client inside of `inbox.js` (and not additional or other files; for grading purposes, we’re only going to be considering `inbox.js`!). You must fulfill the following requirements:\r\n\r\n*   **Send Mail**: When a user submits the email composition form, add JavaScript code to actually send the email.\r\n    *   You’ll likely want to make a `POST` request to `/emails`, passing in values for `recipients`, `subject`, and `body`.\r\n    *   Once the email has been sent, load the user’s sent mailbox.\r\n*   **Mailbox**: When a user visits their Inbox, Sent mailbox, or Archive, load the appropriate mailbox.\r\n    *   You’ll likely want to make a `GET` request to `/emails/<mailbox>` to request the emails for a particular mailbox.\r\n    *   When a mailbox is visited, the application should first query the API for the latest emails in that mailbox.\r\n    *   When a mailbox is visited, the name of the mailbox should appear at the top of the page (this part is done for you).\r\n    *   Each email should then be rendered in its own box (e.g. as a `<div>` with a border) that displays who the email is from, what the subject line is, and the timestamp of the email.\r\n    *   If the email is unread, it should appear with a white background. If the email has been read, it should appear with a gray background.\r\n*   **View Email**: When a user clicks on an email, the user should be taken to a view where they see the content of that email.\r\n    *   You’ll likely want to make a `GET` request to `/emails/<email_id>` to request the email.\r\n    *   Your application should show the email’s sender, recipients, subject, timestamp, and body.\r\n    *   You’ll likely want to add an additional `div` to `inbox.html` (in addition to `emails-view` and `compose-view`) for displaying the email. Be sure to update your code to hide and show the right views when navigation options are clicked.\r\n    *   See the hint in the Hints section about how to add an event listener to an HTML element that you’ve added to the DOM.\r\n    *   Once the email has been clicked on, you should mark the email as read. Recall that you can send a `PUT` request to `/emails/<email_id>` to update whether an email is read or not.\r\n*   **Archive and Unarchive**: Allow users to archive and unarchive emails that they have received.\r\n    *   When viewing an Inbox email, the user should be presented with a button that lets them archive the email. When viewing an Archive email, the user should be presented with a button that lets them unarchive the email. This requirement does not apply to emails in the Sent mailbox.\r\n    *   Recall that you can send a `PUT` request to `/emails/<email_id>` to mark an email as archived or unarchived.\r\n    *   Once an email has been archived or unarchived, load the user’s inbox.\r\n*   **Reply**: Allow users to reply to an email.\r\n    *   When viewing an email, the user should be presented with a “Reply” button that lets them reply to the email.\r\n    *   When the user clicks the “Reply” button, they should be taken to the email composition form.\r\n    *   Pre-fill the composition form with the `recipient` field set to whoever sent the original email.\r\n    *   Pre-fill the `subject` line. If the original email had a subject line of `foo`, the new subject line should be `Re: foo`. (If the subject line already begins with `Re:` , no need to add it again.)\r\n    *   Pre-fill the `body` of the email with a line like `\"On Jan 1 2020, 12:00 AM foo@example.com wrote:\"` followed by the original text of the email.\r\n\r\n[Hints](#hints)\r\n---------------\r\n\r\n*   To create an HTML element and add an event handler to it, you can use JavaScript code like the below:\r\n\r\n    const element = document.createElement('div');\r\n    element.innerHTML = 'This is the content of the div.';\r\n    element.addEventListener('click', function() {\r\n        console.log('This element has been clicked!')\r\n    });\r\n    document.querySelector('#container').append(element);\r\n    \r\n\r\nThis code creates a new `div` element, sets its `innerHTML`, adds an event handler to run a particular function when that `div` is clicked on, and then adds it to an HTML element whose `id` is `container` (this code assumes that there is a HTML element whose `id` is `container`: you’ll likely want to change the argument to `querySelector` to be whichever element you’d like to add an element to).\r\n\r\n*   You may find it helpful to edit `mail/static/mail/styles.css` to add any CSS you need for the application.\r\n*   Recall that if you have a JavaScript array, you can loop over each element of that array using [`forEach`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach).\r\n*   Recall that normally, for `POST` and `PUT` requests, Django requires a CSRF token to guard against potential cross-site request forgery attacks. For this project, we’ve intentionally made the API routes CSRF-exempt, so you won’t need a token. In a real-world project, though, always best to guard against such potential vulnerabilities!\r\n\r\n[How to Submit](#how-to-submit)\r\n-------------------------------\r\n\r\n1.  Visit [this link](https://submit.cs50.io/invites/89679428401548238ceb022f141b9947), log in with your GitHub account, and click **Authorize cs50**. Then, check the box indicating that you’d like to grant course staff access to your submissions, and click **Join course**.\r\n2.  [Install Git](https://git-scm.com/downloads) and, optionally, [install `submit50`](https://cs50.readthedocs.io/submit50/).\r\n\r\nWhen you submit your project, the contents of your `web50/projects/2020/x/mail` branch should match the file structure of the unzipped distribution code as originally received. That is to say, your files should not be nested inside of any other directories of your own creation. Your branch should also not contain any code from any other projects, only this one. Failure to adhere to this file structure will likely result in your submission being rejected.\r\n\r\nBy way of example, for this project that means that if the grading staff visits `https://github.com/me50/USERNAME/tree/web50/projects/2020/x/mail` (where `USERNAME` is your own GitHub username as provided in the form, below) we should see the two subdirectories (`mail`, `project3`) and the `manage.py` file. If that’s not how your code is organized when you check, reorganize your repository needed to match this paradigm.\r\n\r\n3.  If you’ve installed `submit50`, execute\r\n    \r\n        submit50 web50/projects/2020/x/mail\r\n        \r\n    \r\n    Otherwise, using Git, push your work to `https://github.com/me50/USERNAME.git`, where `USERNAME` is your GitHub username, on a branch called `web50/projects/2020/x/mail`.\r\n    \r\n4.  [Record a screencast](https://www.howtogeek.com/205742/how-to-record-your-windows-mac-linux-android-or-ios-screen/) not to exceed 5 minutes in length (and not uploaded more than one month prior to your submission of this project), in which you demonstrate your project’s functionality. Be certain that every element of the specification, above, is demonstrated in your video. There’s no need to show your code in this video, just your application in action; we’ll review your code on GitHub. [Upload that video to YouTube](https://www.youtube.com/upload) (as unlisted or public, but not private) or somewhere else. In your video’s description, you must timestamp where your video demonstrates each of the five (5) elements of the specification. **This is not optional**, videos without timestamps in their description will be automatically rejected.\r\n5.  Submit [this form](https://forms.cs50.io/efd04c70-a3b1-453a-a1c8-fbe7cea7fa8b).\r\n\r\nYou can then go to [https://cs50.me/cs50w](https://cs50.me/cs50w) to view your current progress!",
+      "stacks": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  },
+  {
+    "model": "portfolio.project",
+    "pk": 6,
+    "fields": {
+      "user": 1,
+      "name": "Project 4",
+      "description": "Design a Twitter-like social network website for making posts and following users.",
+      "timestamp": "2023-02-03T14:23:33.753Z",
+      "img_src": "/assets/images/project-web-design.png",
+      "img_alt": "Web Design",
+      "content": "[Network](#network)\r\n===================\r\n\r\nCS50W does not feature a one-to-one correspondence between lectures and projects. If you are attempting this project without having at least watched Lecture 7, you’re trying this too soon!\r\n\r\nDesign a Twitter-like social network website for making posts and following users.\r\n\r\n![Network page](https://cs50.harvard.edu/web/2020/projects/4/images/network.png)\r\n\r\n[Getting Started](#getting-started)\r\n-----------------------------------\r\n\r\n1.  Download the distribution code from [https://cdn.cs50.net/web/2020/spring/projects/4/network.zip](https://cdn.cs50.net/web/2020/spring/projects/4/network.zip) and unzip it.\r\n2.  In your terminal, `cd` into the `project4` directory.\r\n3.  Run `python manage.py makemigrations network` to make migrations for the `network` app.\r\n4.  Run `python manage.py migrate` to apply migrations to your database.\r\n\r\n[Understanding](#understanding)\r\n-------------------------------\r\n\r\nIn the distribution code is a Django project called `project4` that contains a single app called `network`, structured similarly to Project 2’s `auctions` app.\r\n\r\nFirst, open up `network/urls.py`, where the URL configuration for this app is defined. Notice that we’ve already written a few URLs for you, including a default index route, a `/login` route, a `/logout` route, and a `/register` route.\r\n\r\nTake a look at `network/views.py` to see the views that are associated with each of these routes. The index view for now returns a mostly-empty `index.html` template. The `login_view` view renders a login form when a user tries to GET the page. When a user submits the form using the POST request method, the user is authenticated, logged in, and redirected to the index page. The `logout_view` view logs the user out and redirects them to the index page. Finally, the `register` route displays a registration form to the user, and creates a new user when the form is submitted. All of this is done for you in the distribution code, so you should be able to run the application now to create some users.\r\n\r\nRun `python manage.py runserver` to start up the Django web server, and visit the website in your browser. Click “Register” and register for an account. You should see that you are now “Signed in as” your user account, and the links at the top of the page have changed. How did the HTML change? Take a look at `network/templates/network/layout.html` for the HTML layout of this application. Notice that several parts of the template are wrapped in a check for if `user.is_authenticated`, so that different content can be rendered depending on whether the user is signed in or not. You’re welcome to change this file if you’d like to add or modify anything in the layout!\r\n\r\nFinally, take a look at `network/models.py`. This is where you will define any models for your web application, where each model represents some type of data you want to store in your database. We’ve started you with a `User` model that represents each user of the application. Because it inherits from `AbstractUser`, it will already have fields for a username, email, password, etc., but you’re welcome to add new fields to the `User` class if there is additional information about a user that you wish to represent. You will also need to add additional models to this file to represent details about posts, likes, and followers. Remember that each time you change anything in `network/models.py`, you’ll need to first run `python manage.py makemigrations` and then `python manage.py migrate` to migrate those changes to your database.\r\n\r\n[Specification](#specification)\r\n-------------------------------\r\n\r\nUsing Python, JavaScript, HTML, and CSS, complete the implementation of a social network that allows users to make posts, follow other users, and “like” posts. You must fulfill the following requirements:\r\n\r\n*   **New Post**: Users who are signed in should be able to write a new text-based post by filling in text into a text area and then clicking a button to submit the post.\r\n    *   The screenshot at the top of this specification shows the “New Post” box at the top of the “All Posts” page. You may choose to do this as well, or you may make the “New Post” feature a separate page.\r\n*   **All Posts**: The “All Posts” link in the navigation bar should take the user to a page where they can see all posts from all users, with the most recent posts first.\r\n    *   Each post should include the username of the poster, the post content itself, the date and time at which the post was made, and the number of “likes” the post has (this will be 0 for all posts until you implement the ability to “like” a post later).\r\n*   **Profile Page**: Clicking on a username should load that user’s profile page. This page should:\r\n    *   Display the number of followers the user has, as well as the number of people that the user follows.\r\n    *   Display all of the posts for that user, in reverse chronological order.\r\n    *   For any other user who is signed in, this page should also display a “Follow” or “Unfollow” button that will let the current user toggle whether or not they are following this user’s posts. Note that this only applies to any “other” user: a user should not be able to follow themselves.\r\n*   **Following**: The “Following” link in the navigation bar should take the user to a page where they see all posts made by users that the current user follows.\r\n    *   This page should behave just as the “All Posts” page does, just with a more limited set of posts.\r\n    *   This page should only be available to users who are signed in.\r\n*   **Pagination**: On any page that displays posts, posts should only be displayed 10 on a page. If there are more than ten posts, a “Next” button should appear to take the user to the next page of posts (which should be older than the current page of posts). If not on the first page, a “Previous” button should appear to take the user to the previous page of posts as well.\r\n    *   See the **Hints** section for some suggestions on how to implement this.\r\n*   **Edit Post**: Users should be able to click an “Edit” button or link on any of their own posts to edit that post.\r\n    *   When a user clicks “Edit” for one of their own posts, the content of their post should be replaced with a `textarea` where the user can edit the content of their post.\r\n    *   The user should then be able to “Save” the edited post. Using JavaScript, you should be able to achieve this without requiring a reload of the entire page.\r\n    *   For security, ensure that your application is designed such that it is not possible for a user, via any route, to edit another user’s posts.\r\n*   **“Like” and “Unlike”**: Users should be able to click a button or link on any post to toggle whether or not they “like” that post.\r\n    *   Using JavaScript, you should asynchronously let the server know to update the like count (as via a call to `fetch`) and then update the post’s like count displayed on the page, without requiring a reload of the entire page.\r\n\r\n[Hints](#hints)\r\n---------------\r\n\r\n*   For examples of JavaScript `fetch` calls, you may find some of the routes in Project 3 useful to reference.\r\n*   You’ll likely need to create one or more models in `network/models.py` and/or modify the existing `User` model to store the necessary data for your web application.\r\n*   Django’s [Paginator](https://docs.djangoproject.com/en/4.0/topics/pagination/) class may be helpful for implementing pagination on the back-end (in your Python code).\r\n*   Bootstrap’s [Pagination](https://getbootstrap.com/docs/4.4/components/pagination/) features may be helpful for displaying pages on the front-end (in your HTML).\r\n\r\n[How to Submit](#how-to-submit)\r\n-------------------------------\r\n\r\n1.  Visit [this link](https://submit.cs50.io/invites/89679428401548238ceb022f141b9947), log in with your GitHub account, and click **Authorize cs50**. Then, check the box indicating that you’d like to grant course staff access to your submissions, and click **Join course**.\r\n2.  [Install Git](https://git-scm.com/downloads) and, optionally, [install `submit50`](https://cs50.readthedocs.io/submit50/).\r\n\r\nWhen you submit your project, the contents of your `web50/projects/2020/x/network` branch should match the file structure of the unzipped distribution code as originally received. That is to say, your files should not be nested inside of any other directories of your own creation. Your branch should also not contain any code from any other projects, only this one. Failure to adhere to this file structure will likely result in your submission being rejected.\r\n\r\nBy way of example, for this project that means that if the grading staff visits `https://github.com/me50/USERNAME/tree/web50/projects/2020/x/network` (where `USERNAME` is your own GitHub username as provided in the form, below) we should see the two subdirectories (`network`, `project4`) and the `manage.py` file. If that’s not how your code is organized when you check, reorganize your repository needed to match this paradigm.\r\n\r\n3.  If you’ve installed `submit50`, execute\r\n    \r\n        submit50 web50/projects/2020/x/network\r\n        \r\n    \r\n    Otherwise, using Git, push your work to `https://github.com/me50/USERNAME.git`, where `USERNAME` is your GitHub username, on a branch called `web50/projects/2020/x/network`.\r\n    \r\n4.  [Record a screencast](https://www.howtogeek.com/205742/how-to-record-your-windows-mac-linux-android-or-ios-screen/) not to exceed 5 minutes in length (and not uploaded more than one month prior to your submission of this project), in which you demonstrate your project’s functionality. Be certain that every element of the specification, above, is demonstrated in your video. There’s no need to show your code in this video, just your application in action; we’ll review your code on GitHub. [Upload that video to YouTube](https://www.youtube.com/upload) (as unlisted or public, but not private) or somewhere else. In your video’s description, you must timestamp where your video demonstrates each of the seven (7) elements of the specification. **This is not optional**, videos without timestamps in their description will be automatically rejected.\r\n5.  Submit [this form](https://forms.cs50.io/674c7dbb-096d-4343-afe8-ea0d53cecda4).\r\n\r\nYou can then go to [https://cs50.me/cs50w](https://cs50.me/cs50w) to view your current progress!",
+      "stacks": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  }
+]

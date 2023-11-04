@@ -12,7 +12,7 @@ const Project = () => {
 
   const getProject = async (projectId) => {
     const response = await fetch(
-      `http://localhost:8000/project/${projectId}`
+      `http://localhost:8000/projects/${projectId}`
     );
     // console.log("response", response.status);
     if (response.status !== 200) {

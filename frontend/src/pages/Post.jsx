@@ -12,7 +12,7 @@ const Post = () => {
   const { id } = useParams();
 
   const getPost = async (postId) => {
-    const response = await fetch(`http://localhost:8000/post/${postId}`);
+    const response = await fetch(`http://localhost:8000/posts/${postId}`);
     // console.log("response", response.status);
     if (response.status !== 200) {
       const message = await response.json();

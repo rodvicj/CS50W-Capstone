@@ -10,7 +10,7 @@ import { useQuery } from "@tanstack/react-query";
 const PostsRecent = () => {
 
   const getRecentPosts = async () => {
-    const response = await fetch(`http://localhost:8000/posts/1`);
+    const response = await fetch(`http://localhost:8000/posts`);
     return response.json();
   };
 

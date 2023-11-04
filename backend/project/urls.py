@@ -27,11 +27,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
-import backend.portfolio.urls
-import backend.account.urls
+import portfolio.urls
+import accounts.urls
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path(include(backend.account.urls)),
-    # path(include(backend.portfolio.urls)),
+    path("", include(accounts.urls)),
+    path("", include(portfolio.urls)),
+    path("markdownx/", include("markdownx.urls")),
 ]

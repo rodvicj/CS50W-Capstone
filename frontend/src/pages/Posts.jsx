@@ -7,11 +7,11 @@ import PostGallery from "../components/PostGallery";
 import Pagination from "../components/Pagination";
 
 const Posts = () => {
-  let { page } = useParams();
-  page ||= 1;
+  // let { page } = useParams();
+  // page ||= 1;
 
-  const getPosts = async (pageNum) => {
-    const response = await fetch(`http://localhost:8000/posts/${pageNum}`);
+  const getPosts = async () => {
+    const response = await fetch(`http://localhost:8000/posts`);
 
     if (response.status !== 200) {
       const message = await response.json();
@@ -26,7 +26,7 @@ const Posts = () => {
   const { isLoading, data } = useQuery({
     queryKey: ["posts", { page }],
     keepPreviousData: true,
-    queryFn: () => getPosts(page),
+    queryFn: () => getPosts(),
   });
 
   return (

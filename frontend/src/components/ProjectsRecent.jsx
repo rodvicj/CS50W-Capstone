@@ -42,7 +42,7 @@ const ProjectsRecent = () => {
     >
       {isLoading ? "Loading..." : <></>}
       <div className="flex flex-col gap-6">
-        {data?.slice(0, 3)?.map((project) => {
+        {data.results?.slice(0, 3)?.map((project) => {
           return <ProjectCard key={project.id}>{project}</ProjectCard>;
         })}
       </div>
