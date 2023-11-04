@@ -51,6 +51,7 @@ const Posts = () => {
       </Section>
 
       <Section>
+        {/* TODO: reimplement pagination properly */}
         <Pagination pageData={data?.page} pageNumber={page} />
       </Section>
     </>
