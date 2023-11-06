@@ -1,5 +1,5 @@
 from rest_framework import viewsets, status
-from rest_framework.parsers import FormParser, MultiPartParser
+# from rest_framework.parsers import FormParser, MultiPartParser
 
 # from rest_framework.response import Response
 # from rest_framework.decorators import api_view
@@ -14,7 +14,7 @@ from ..serializers.post import PostSerializer
 class PostViewSet(viewsets.ModelViewSet):
     # filter_backends = [DjangoFilterBackend]
     # filterset_class = PostFilter
-    parser_classes = (MultiPartParser, FormParser)
+    # parser_classes = (MultiPartParser, FormParser)
     # permission_classes = [IsAuthenticated, IsObjectOwnerOrReadOnly]
     queryset = Post.objects.all()
 
