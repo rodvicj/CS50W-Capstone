@@ -9,31 +9,30 @@ import PageTitle from "../components/PageTitle";
 // const img = "/demo/astro-boilerplate/assets/images/image-post.jpeg";
 
 const Post = () => {
-  const { id } = useParams();
+  const { postID } = useParams();
 
-  const getPost = async (postId) => {
-    const response = await fetch(`http://localhost:8000/posts/${postId}`);
+  const getPost = async (id) => {
+    const response = await fetch(`http://localhost:8000/posts/${id}`);
     // console.log("response", response.status);
     if (response.status !== 200) {
       const message = await response.json();
       return {
         status: response.status,
-        message: message.message,
+        message: message.detail,
       };
     }
     return response.json();
   };
 
   const { isLoading, data } = useQuery({
-    queryKey: ["posts", parseInt(id)],
-    queryFn: () => getPost(id),
+    queryKey: ["posts", parseInt(postID)],
+    queryFn: () => getPost(postID),
   });
 
   return (
     <>
       <PageTitle title={data?.title} />
       <Section>
-        {console.log(data)}
         {isLoading ? "Loading..." : <></>}
         <PostHeader content={data} />
 
