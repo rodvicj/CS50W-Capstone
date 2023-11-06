@@ -29,7 +29,7 @@ const App = () => {
         <Route path="/post/:id" element={<Post />} />
         <Route path="/posts" element={<Posts />} />
         <Route path="/posts/:page" element={<Posts />} />
-        <Route path="/project/:id" element={<Project />} />
+        <Route path="/project/:projectID" element={<Project />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
       <Footer />

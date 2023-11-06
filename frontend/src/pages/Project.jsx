@@ -8,26 +8,25 @@ import Content from "../components/Content";
 // const img = "/demo/astro-boilerplate/assets/images/image-post.jpeg";
 
 const Project = () => {
-  const { id } = useParams();
+  const { projectID } = useParams();
 
-  const getProject = async (projectId) => {
+  const getProject = async (id) => {
     const response = await fetch(
-      `http://localhost:8000/projects/${projectId}`
+      `http://localhost:8000/projects/${id}`
     );
-    // console.log("response", response.status);
     if (response.status !== 200) {
       const message = await response.json();
       return {
         status: response.status,
-        message: message.message,
+        message: message.detail,
       };
     }
     return response.json();
   };
 
   const { isLoading, data } = useQuery({
-    queryKey: ["projects", parseInt(id)],
-    queryFn: () => getProject(id),
+    queryKey: ["projects", parseInt(projectID)],
+    queryFn: () => getProject(projectID),
   });
 
   return (
