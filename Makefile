@@ -30,6 +30,19 @@ superuser:
 update-requirements:
 	poetry export --without-hashes --format=requirements.txt > requirements.txt
 
+.PHONY: load-fixtures
+load-fixtures:
+	poetry run python -m backend.manage loaddata fixtures
+
 .PHONY: runserver
 runserver:
-	npm --prefix ./frontend/ run start & poetry run python -m backend.manage runserver
+	poetry run python -m backend.manage runserver
+
+.PHONY: npm-start
+npm-start:
+	npm --prefix ./frontend/ run start
+
+
+# .PHONY: runserver
+# runserver:
+# 	npm --prefix ./frontend/ run start & poetry run python -m backend.manage runserver
