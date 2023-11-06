@@ -39,9 +39,13 @@ INSTALLED_APPS = [
     "rest_framework",
     "corsheaders",
     "markdownx",
-    "portfolio",
-    "accounts",
+    # "portfolio",
+    # "accounts",
+
     # 'rest_framework.authtoken',
+    # 'cooking_core.recipes.apps.RecipesConfig',
+    "backend.accounts.apps.AccountsConfig",
+    "backend.portfolio.apps.PortfolioConfig",
 ]
 
 MIDDLEWARE = [
@@ -55,7 +59,7 @@ MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
 ]
 
-ROOT_URLCONF = "project.urls"
+ROOT_URLCONF = "backend.project.urls"
 
 
 TEMPLATES = [
@@ -74,7 +78,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "project.wsgi.application"
+WSGI_APPLICATION = "backend.project.wsgi.application"
 
 
 # Database
