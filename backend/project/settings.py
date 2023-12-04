@@ -39,12 +39,6 @@ INSTALLED_APPS = [
     "rest_framework",
     "corsheaders",
     "markdownx",
-    # "portfolio",
-    # "accounts",
-
-    # 'rest_framework.authtoken',
-    # 'cooking_core.recipes.apps.RecipesConfig',
-    "backend.accounts.apps.AccountsConfig",
     "backend.portfolio.apps.PortfolioConfig",
 ]
 

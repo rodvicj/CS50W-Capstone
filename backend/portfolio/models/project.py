@@ -12,6 +12,7 @@ class Project(models.Model):
     description = models.CharField(blank=False, max_length=255)
     # url = models.URLField(blank=True)
     timestamp = models.DateTimeField(auto_now_add=True)
+    # TODO: add images to backend media
     img_src = models.CharField(blank=False, max_length=255)
     img_alt = models.CharField(blank=False, max_length=255)
     content = MarkdownxField(blank=True)

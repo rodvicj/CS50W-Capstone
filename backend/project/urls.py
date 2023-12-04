@@ -28,11 +28,9 @@ from django.contrib import admin
 from django.urls import include, path
 
 import backend.portfolio.urls
-import backend.accounts.urls
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", include(backend.accounts.urls)),
     path("", include(backend.portfolio.urls)),
     path("markdownx/", include("markdownx.urls")),
 ]

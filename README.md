@@ -19,7 +19,6 @@ PROJECT_ROOT
 ├── frontend            # reactjs files
 ├── README.md           # this README file
 └── requirements.txt    # dependencies (python packages)
-
 ```
 
 ## How to run the application
