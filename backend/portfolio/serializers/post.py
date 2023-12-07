@@ -15,7 +15,6 @@ class PostSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Post
-        # fields = "__all__"
         fields = [
             "id",
             "author",
@@ -27,41 +26,3 @@ class PostSerializer(serializers.ModelSerializer):
             "content",
         ]
         # depth = 1
-
-
-# class CommentReadSerializer(serializers.ModelSerializer):
-#     owner = UserReadSerializer(read_only=True)
-
-#     class Meta:
-#         model = Comment
-#         fields = (
-#             'content',
-#             'created_date',
-#             'id',
-#             'modified_date',
-#             'owner',
-#             'post',
-#         )
-#         read_only_fields = (
-#             'content',
-#             'created_date',
-#             'id',
-#             'modified_date',
-#             'owner',
-#             'post',
-#         )
-
-
-# class CommentWriteSerializer(serializers.ModelSerializer):
-
-#     class Meta:
-#         model = Comment
-#         fields = ('content', 'post')
-
-#     def create(self, validated_data):
-#         request = self.context.get('request')
-#         post = super().create({
-#             **validated_data,
-#             'owner': request.user,
-#         })
-#         return post
